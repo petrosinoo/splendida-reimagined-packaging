@@ -19,7 +19,7 @@ All colors MUST be HSL.
     --popover-foreground: 210 25% 15%;
 
     /* Splendida brand colors */
-    --primary: 205 85% 35%; /* Deep blue from logo */
+    --primary: 206 79% 25%; /* Deep blue #0d4172 */
     --primary-foreground: 0 0% 100%;
     
     --secondary: 25 95% 60%; /* Orange CTA color */
@@ -85,8 +85,8 @@ All colors MUST be HSL.
     --popover: 210 40% 12%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 205 85% 60%;
-    --primary-foreground: 210 50% 8%;
+    --primary: 206 79% 25%;
+    --primary-foreground: 0 0% 100%;
 
     --secondary: 25 95% 60%;
     --secondary-foreground: 0 0% 100%;

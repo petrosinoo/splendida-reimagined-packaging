@@ -52,9 +52,9 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/orcamento" className="text-gray-300 hover:text-secondary transition-colors">
+                <a href="https://splendidaembalagens.com.br/orcamento/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-secondary transition-colors">
                   Orçamento
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

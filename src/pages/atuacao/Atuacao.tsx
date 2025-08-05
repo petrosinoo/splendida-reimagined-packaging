@@ -42,9 +42,9 @@ const Atuacao = () => {
                 </Link>
               </Button>
               <Button variant="outline" size="lg" asChild>
-                <Link to="/orcamento">
+                <a href="https://splendidaembalagens.com.br/orcamento/" target="_blank" rel="noopener noreferrer">
                   Solicitar Orçamento
-                </Link>
+                </a>
               </Button>
             </div>
           </div>
@@ -174,9 +174,9 @@ const Atuacao = () => {
               </Link>
             </Button>
             <Button size="lg" variant="outline" className="bg-transparent border-white text-white hover:bg-white hover:text-primary" asChild>
-              <Link to="/orcamento">
+              <a href="https://splendidaembalagens.com.br/orcamento/" target="_blank" rel="noopener noreferrer">
                 Solicitar Orçamento
-              </Link>
+              </a>
             </Button>
           </div>
         </div>

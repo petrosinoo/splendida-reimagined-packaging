@@ -53,9 +53,9 @@ const SaoPaulo = () => {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button size="lg" asChild>
-                <Link to="/orcamento">
+                <a href="https://splendidaembalagens.com.br/orcamento/" target="_blank" rel="noopener noreferrer">
                   Solicite um Orçamento para São Paulo!
-                </Link>
+                </a>
               </Button>
               <Button variant="outline" size="lg" asChild>
                 <Link to="/contato">
@@ -238,9 +238,9 @@ const SaoPaulo = () => {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>
-              <Link to="/orcamento">
+              <a href="https://splendidaembalagens.com.br/orcamento/" target="_blank" rel="noopener noreferrer">
                 Solicitar Orçamento
-              </Link>
+              </a>
             </Button>
             <Button size="lg" variant="outline" className="bg-transparent border-white text-white hover:bg-white hover:text-primary" asChild>
               <Link to="/contato">
