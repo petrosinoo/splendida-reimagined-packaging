@@ -100,11 +100,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-secondary" />
-                <span>contato@splendida.com.br</span>
+                <span>vendas2@splendidaembalagens.com.br</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Clock className="h-4 w-4 text-secondary" />
-                <span>Seg-Sex: 8h às 18h</span>
+                <span>Seg-Sex: 9h às 18h</span>
               </div>
             </div>
             
@@ -114,7 +114,7 @@ const Footer = () => {
                 className="w-full bg-green-600 hover:bg-green-700 text-white"
               >
                 <a 
-                  href="https://wa.me/5511945190641?text=Olá! Gostaria de saber mais sobre embalagens de papelão."
+                  href="https://api.whatsapp.com/send/?phone=5511945190641&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+embalagens+de+papel%C3%A3o.&type=phone_number&app_absent=0"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -122,9 +122,13 @@ const Footer = () => {
                 </a>
               </Button>
               <Button asChild variant="outline" className="w-full text-white border-white hover:bg-white hover:text-primary">
-                <Link to="/orcamento">
+                <a 
+                  href="https://splendidaembalagens.com.br/orcamento/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Solicitar Orçamento
-                </Link>
+                </a>
               </Button>
             </div>
           </div>

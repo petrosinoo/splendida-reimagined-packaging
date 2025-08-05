@@ -58,7 +58,7 @@ const Header = () => {
         { name: 'Espírito Santo', href: '/atuacao/espirito-santo' },
       ]
     },
-    { name: 'Orçamento', href: '/orcamento' },
+    { name: 'Orçamento', href: 'https://splendidaembalagens.com.br/orcamento/', external: true },
     { name: 'Contato', href: '/contato' },
   ];
 
@@ -91,11 +91,12 @@ const Header = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
-            <Link to="/" className="flex items-center space-x-2">
-              <div className="bg-primary text-primary-foreground px-3 py-1 rounded font-bold text-lg">
-                SPLENDIDA
-              </div>
-              <span className="text-sm text-muted-foreground">EMBALAGENS</span>
+            <Link to="/" className="flex items-center">
+              <img 
+                src="/lovable-uploads/51cea53a-876f-404d-8e38-1e22c20faa22.png" 
+                alt="Splendida Embalagens"
+                className="h-12 w-auto"
+              />
             </Link>
 
             {/* Desktop Navigation */}
@@ -142,6 +143,17 @@ const Header = () => {
                             </div>
                           </NavigationMenuContent>
                         </>
+                      ) : item.external ? (
+                        <NavigationMenuLink asChild>
+                          <a
+                            href={item.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-3 py-2 text-sm font-medium transition-colors hover:text-primary text-foreground"
+                          >
+                            {item.name}
+                          </a>
+                        </NavigationMenuLink>
                       ) : (
                         <NavigationMenuLink asChild>
                           <Link
@@ -175,13 +187,25 @@ const Header = () => {
                     <nav className="space-y-4">
                       {navItems.map((item) => (
                         <div key={item.name}>
-                          <Link
-                            to={item.href}
-                            className="block py-2 text-foreground hover:text-primary transition-colors"
-                            onClick={() => setIsOpen(false)}
-                          >
-                            {item.name}
-                          </Link>
+                          {item.external ? (
+                            <a
+                              href={item.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="block py-2 text-foreground hover:text-primary transition-colors"
+                              onClick={() => setIsOpen(false)}
+                            >
+                              {item.name}
+                            </a>
+                          ) : (
+                            <Link
+                              to={item.href}
+                              className="block py-2 text-foreground hover:text-primary transition-colors"
+                              onClick={() => setIsOpen(false)}
+                            >
+                              {item.name}
+                            </Link>
+                          )}
                           {item.subItems && (
                             <div className="ml-4 space-y-2 mt-2">
                               {item.subItems.map((subItem) => (

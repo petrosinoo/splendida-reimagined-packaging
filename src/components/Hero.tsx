@@ -31,10 +31,15 @@ const Hero = () => {
               size="lg"
               className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-8 py-4 text-lg font-semibold"
             >
-              <Link to="/orcamento" className="flex items-center space-x-2">
+              <a 
+                href="https://splendidaembalagens.com.br/orcamento/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-2"
+              >
                 <span>Solicitar Orçamento Personalizado</span>
                 <ArrowRight className="h-5 w-5" />
-              </Link>
+              </a>
             </Button>
             
             <Button 

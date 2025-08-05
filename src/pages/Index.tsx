@@ -259,7 +259,7 @@ const Index = () => {
               className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 text-lg"
             >
               <a 
-                href="https://wa.me/5511945190641?text=Olá! Gostaria de saber mais sobre embalagens de papelão."
+                href="https://api.whatsapp.com/send/?phone=5511945190641&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+embalagens+de+papel%C3%A3o.&type=phone_number&app_absent=0"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -273,7 +273,13 @@ const Index = () => {
               size="lg"
               className="border-white text-white hover:bg-white hover:text-primary px-8 py-4 text-lg"
             >
-              <Link to="/orcamento">Solicitar Orçamento</Link>
+              <a 
+                href="https://splendidaembalagens.com.br/orcamento/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Solicitar Orçamento
+              </a>
             </Button>
           </div>
         </div>

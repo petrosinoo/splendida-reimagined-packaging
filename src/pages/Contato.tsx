@@ -21,8 +21,7 @@ const Contato = () => {
       icon: Mail,
       title: 'E-mail',
       details: [
-        'contato@splendida.com.br',
-        'vendas@splendida.com.br'
+        'vendas2@splendidaembalagens.com.br'
       ]
     },
     {
@@ -37,8 +36,7 @@ const Contato = () => {
       icon: Clock,
       title: 'Horário de Funcionamento',
       details: [
-        'Segunda a Sexta: 8h às 18h',
-        'Sábado: 8h às 12h'
+        'Segunda a Sexta: 9h às 18h'
       ]
     }
   ];
@@ -169,7 +167,7 @@ const Contato = () => {
                   className="w-full border-green-600 text-green-600 hover:bg-green-600 hover:text-white"
                 >
                   <a 
-                    href="https://wa.me/5511945190641?text=Olá! Gostaria de saber mais sobre embalagens de papelão."
+                    href="https://api.whatsapp.com/send/?phone=5511945190641&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+embalagens+de+papel%C3%A3o.&type=phone_number&app_absent=0"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center space-x-2"
