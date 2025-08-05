@@ -38,7 +38,26 @@ const Header = () => {
         { name: 'Embalagens por Segmento', href: '/embalagens/segmento' },
       ]
     },
-    { name: 'Atuação', href: '/atuacao' },
+    {
+      name: 'Atuação',
+      href: '/atuacao',
+      subItems: [
+        { name: 'São Paulo', href: '/atuacao/sao-paulo' },
+        { name: 'ABC Paulista', href: '/atuacao/abc' },
+        { name: 'Alto Tietê', href: '/atuacao/alto-tiete' },
+        { name: 'Vale do Paraíba', href: '/atuacao/vale-paraiba' },
+        { name: 'Minas Gerais', href: '/atuacao/minas-gerais' },
+        { name: 'Rio de Janeiro', href: '/atuacao/rio-janeiro' },
+        { name: 'Bahia', href: '/atuacao/bahia' },
+        { name: 'Maranhão', href: '/atuacao/maranhao' },
+        { name: 'Pernambuco', href: '/atuacao/pernambuco' },
+        { name: 'Rio Grande do Norte', href: '/atuacao/rio-grande-norte' },
+        { name: 'Mato Grosso', href: '/atuacao/mato-grosso' },
+        { name: 'Pará', href: '/atuacao/para' },
+        { name: 'Ceará', href: '/atuacao/ceara' },
+        { name: 'Espírito Santo', href: '/atuacao/espirito-santo' },
+      ]
+    },
     { name: 'Orçamento', href: '/orcamento' },
     { name: 'Contato', href: '/contato' },
   ];
