@@ -1,60 +1,67 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, CheckCircle, Package, Shield, Layers } from 'lucide-react';
+import { ArrowRight, CheckCircle, Package, Shield, Layers, Recycle, Users, Cog } from 'lucide-react';
 import Layout from '@/components/Layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import cardboardBoxes from '@/assets/cardboard-boxes.jpg';
 
 const Ondulado = () => {
-  const ondulationTypes = [
-    {
-      title: 'Onda Simples',
-      description: 'Ideal para produtos leves e embalagens secundárias',
-      thickness: '3-4mm',
-      applications: ['Caixas de correio', 'Embalagens de eletrônicos', 'Separadores']
-    },
-    {
-      title: 'Onda Dupla',
-      description: 'Resistência superior para produtos de peso médio',
-      thickness: '6-7mm',
-      applications: ['Caixas de mudança', 'Embalagens industriais', 'Proteção de móveis']
-    },
-    {
-      title: 'Onda Tripla',
-      description: 'Máxima resistência para produtos pesados',
-      thickness: '15mm',
-      applications: ['Embalagens de maquinário', 'Produtos pesados', 'Exportação']
-    }
-  ];
-
-  const features = [
+  const benefits = [
     {
       icon: Shield,
-      title: 'Resistência Superior',
-      description: 'Estrutura ondulada proporciona excelente resistência ao empilhamento e impactos.'
+      title: 'Qualidade Superior',
+      description: 'Elevados padrões de qualidade, eficiência e desempenho na produção de embalagens de papelão ondulado.'
     },
     {
       icon: Package,
-      title: 'Versatilidade',
-      description: 'Adequado para diversos tipos de produtos e aplicações industriais.'
+      title: 'Versatilidade Total',
+      description: 'Desenvolvemos embalagens de papelão ondulado de qualquer especificação técnica, conforme as necessidades dos clientes.'
     },
     {
-      icon: Layers,
-      title: 'Estrutura Multicamada',
-      description: 'Combinação de camadas externas e miolo ondulado para máxima eficiência.'
+      icon: Shield,
+      title: 'Proteção Eficiente',
+      description: 'As caixas de papelão ondulado são materiais apropriados para proteger vários tipos de produtos, principalmente em transportes.'
+    },
+    {
+      icon: Recycle,
+      title: 'Sustentabilidade',
+      description: 'Utilizamos matéria-prima de qualidade e com impacto ambiental reduzido para o desenvolvimento de embalagens de papelão ondulado.'
     }
   ];
 
-  const applications = [
+  const industries = [
     'E-commerce e varejo',
-    'Indústria alimentícia',
+    'Indústria alimentícia', 
     'Setor automotivo',
     'Eletroeletrônicos',
     'Produtos farmacêuticos',
     'Têxtil e confecção',
     'Mudanças e armazenamento',
     'Exportação e importação'
+  ];
+
+  const fabricationProcess = [
+    {
+      step: '01',
+      title: 'Seleção de Matéria-Prima',
+      description: 'Utilizamos materiais de primeira linha e que causam menor impacto ambiental.'
+    },
+    {
+      step: '02', 
+      title: 'Ondulação',
+      description: 'Processo de criação da estrutura ondulada que confere resistência às embalagens.'
+    },
+    {
+      step: '03',
+      title: 'Colagem',
+      description: 'União das camadas através de cola de alta qualidade e secagem controlada.'
+    },
+    {
+      step: '04',
+      title: 'Acabamento',
+      description: 'Corte, vinco e personalização conforme especificações técnicas do cliente.'
+    }
   ];
 
   return (
@@ -64,11 +71,11 @@ const Ondulado = () => {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Embalagens de <span className="text-secondary">Papelão Ondulado</span>
+              Embalagens de Papelão Ondulado: <span className="text-secondary">Qualidade, Eficiência e Desempenho</span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              Resistência, versatilidade e sustentabilidade em uma solução completa 
-              para proteção e transporte dos seus produtos.
+              Com grande experiência no mercado, a Splendida é uma empresa especializada no desenvolvimento 
+              de embalagens de papelão ondulado com elevados padrões de qualidade, eficiência e desempenho.
             </p>
           </div>
         </div>
@@ -80,23 +87,23 @@ const Ondulado = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-foreground">
-                O Que é Papelão Ondulado?
+                Soluções Completas em Embalagens Onduladas
               </h2>
               <div className="space-y-4 text-gray-text text-lg">
                 <p>
-                  O papelão ondulado é composto por uma ou mais folhas de papel 
-                  ondulado (miolo) coladas entre camadas de papel liso (capas), 
-                  formando uma estrutura extremamente resistente e versátil.
+                  Com grande experiência no mercado, a Splendida é uma empresa especializada no desenvolvimento 
+                  de embalagens de papelão ondulado. Contamos com elevados padrões de qualidade, eficiência e 
+                  desempenho na produção de embalagens de papelão ondulado.
                 </p>
                 <p>
-                  Esta configuração única proporciona excelente resistência ao 
-                  empilhamento, proteção contra impactos e leveza para otimizar 
-                  custos de transporte.
+                  A Splendida oferece soluções em embalagens de papelão ondulado com o objetivo de suprir 
+                  diversos tipos de necessidades mercadológicas. Desenvolvemos embalagens de papelão ondulado 
+                  de qualquer especificação técnica, conforme as necessidades dos clientes.
                 </p>
                 <p>
-                  Na Splendida, utilizamos apenas materiais de primeira qualidade 
-                  e processos certificados para garantir a máxima performance de 
-                  nossas embalagens.
+                  As caixas de papelão ondulado são materiais apropriados para proteger vários tipos de produtos, 
+                  principalmente em transportes. Disponibilizamos embalagens de papelão ondulado para empresas 
+                  dos mais variados portes e segmentos do mercado.
                 </p>
               </div>
             </div>
@@ -111,77 +118,82 @@ const Ondulado = () => {
         </div>
       </section>
 
-      {/* Tipos de Ondulação */}
+      {/* Benefícios e Características */}
       <section className="py-16 bg-light-blue">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-foreground">
-              Tipos de Ondulação
+              Benefícios e Características
             </h2>
             <p className="text-xl text-gray-text max-w-2xl mx-auto">
-              Diferentes configurações para atender necessidades específicas de resistência e aplicação.
+              Atendemos as mais exigentes normas de gerenciamento e padronização de processos 
+              dos nossos clientes com as embalagens de papelão ondulado.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {ondulationTypes.map((type, index) => (
-              <Card key={index} className="bg-card border-0 shadow-card">
-                <CardHeader className="text-center">
-                  <CardTitle className="text-xl text-primary">{type.title}</CardTitle>
-                  <CardDescription className="text-2xl font-bold text-secondary">
-                    {type.thickness}
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-text mb-4">{type.description}</p>
-                  <div className="space-y-2">
-                    <h4 className="font-semibold text-foreground">Aplicações:</h4>
-                    <ul className="space-y-1">
-                      {type.applications.map((app, appIndex) => (
-                        <li key={appIndex} className="flex items-center space-x-2 text-sm text-gray-text">
-                          <CheckCircle className="h-4 w-4 text-primary" />
-                          <span>{app}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </CardContent>
-              </Card>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {benefits.map((benefit, index) => (
+              <div key={index} className="text-center">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-primary text-primary-foreground rounded-full mb-4">
+                  <benefit.icon className="h-8 w-8" />
+                </div>
+                <h3 className="text-xl font-semibold mb-3 text-foreground">
+                  {benefit.title}
+                </h3>
+                <p className="text-gray-text">
+                  {benefit.description}
+                </p>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Características */}
+      {/* Matéria-Prima e Sustentabilidade */}
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-foreground">
-              Características Principais
-            </h2>
-            <p className="text-xl text-gray-text max-w-2xl mx-auto">
-              Vantagens que fazem do papelão ondulado a escolha ideal para suas embalagens.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-            {features.map((feature, index) => (
-              <div key={index} className="text-center">
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-primary text-primary-foreground rounded-full mb-4">
-                  <feature.icon className="h-8 w-8" />
-                </div>
-                <h3 className="text-xl font-semibold mb-3 text-foreground">
-                  {feature.title}
-                </h3>
-                <p className="text-gray-text">
-                  {feature.description}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-foreground">
+                Matéria-Prima e Sustentabilidade
+              </h2>
+              <div className="space-y-4 text-gray-text text-lg">
+                <p>
+                  Utilizamos matéria-prima de qualidade e com impacto ambiental reduzido para o 
+                  desenvolvimento de embalagens de papelão ondulado. Utilizamos materiais de primeira 
+                  linha e que causam menor impacto ambiental na fabricação de caixas de papelão ondulado.
                 </p>
+                <div className="space-y-3">
+                  <div className="flex items-center space-x-3">
+                    <CheckCircle className="h-5 w-5 text-primary" />
+                    <span>Materiais 100% recicláveis</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <CheckCircle className="h-5 w-5 text-primary" />
+                    <span>Baixo impacto ambiental</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <CheckCircle className="h-5 w-5 text-primary" />
+                    <span>Matéria-prima de primeira qualidade</span>
+                  </div>
+                </div>
               </div>
-            ))}
+            </div>
+            <div className="relative">
+              <img 
+                src={cardboardBoxes} 
+                alt="Matéria-prima sustentável"
+                className="rounded-lg shadow-card w-full h-auto"
+              />
+            </div>
           </div>
+        </div>
+      </section>
 
-          {/* Especificações Técnicas */}
-          <div className="bg-light-blue p-8 rounded-lg">
+      {/* Especificações Técnicas */}
+      <section className="py-16 bg-light-blue">
+        <div className="container mx-auto px-4">
+          <div className="bg-card p-8 rounded-lg shadow-card">
             <h3 className="text-2xl font-bold mb-6 text-foreground text-center">
               Especificações Técnicas
             </h3>
@@ -207,23 +219,53 @@ const Ondulado = () => {
         </div>
       </section>
 
-      {/* Aplicações */}
-      <section className="py-16 bg-light-blue">
+      {/* Aplicações por Indústria */}
+      <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-foreground">
-              Segmentos de Aplicação
+              Aplicações por Indústria
             </h2>
             <p className="text-xl text-gray-text max-w-2xl mx-auto">
-              Nossos produtos atendem uma ampla gama de setores e necessidades.
+              Nossos produtos atendem uma ampla gama de setores e necessidades industriais.
             </p>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {applications.map((application, index) => (
-              <div key={index} className="bg-card p-4 rounded-lg shadow-card text-center">
-                <span className="text-gray-text font-medium">{application}</span>
+            {industries.map((industry, index) => (
+              <div key={index} className="bg-light-blue p-4 rounded-lg text-center">
+                <span className="text-gray-text font-medium">{industry}</span>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Processo de Fabricação */}
+      <section className="py-16 bg-light-blue">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-foreground">
+              Processo de Fabricação
+            </h2>
+            <p className="text-xl text-gray-text max-w-2xl mx-auto">
+              Conheça nosso processo produtivo que garante a qualidade e eficiência de nossas embalagens.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {fabricationProcess.map((process, index) => (
+              <Card key={index} className="bg-card border-0 shadow-card text-center">
+                <CardHeader>
+                  <div className="w-12 h-12 bg-primary text-primary-foreground rounded-full flex items-center justify-center font-bold text-lg mx-auto mb-2">
+                    {process.step}
+                  </div>
+                  <CardTitle className="text-lg">{process.title}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-gray-text text-sm">{process.description}</p>
+                </CardContent>
+              </Card>
             ))}
           </div>
         </div>
@@ -233,11 +275,11 @@ const Ondulado = () => {
       <section className="py-16 bg-gradient-hero text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-            Precisa de Embalagens de Papelão Ondulado?
+            Solicite um Orçamento para Embalagens Onduladas
           </h2>
           <p className="text-xl mb-8 text-gray-200 max-w-2xl mx-auto">
-            Nossa equipe está pronta para desenvolver a solução perfeita para suas necessidades. 
-            Entre em contato e receba um orçamento personalizado.
+            Entre em contato conosco para solicitar um orçamento de embalagens de papelão ondulado. 
+            Nossa equipe está pronta para desenvolver a solução perfeita para suas necessidades.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -258,13 +300,9 @@ const Ondulado = () => {
               size="lg"
               className="border-white text-white hover:bg-white hover:text-primary px-8 py-4 text-lg"
             >
-              <a 
-                href="https://wa.me/5511945190641?text=Olá! Gostaria de saber mais sobre embalagens de papelão ondulado."
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Falar no WhatsApp
-              </a>
+              <Link to="/embalagens/personalizadas">
+                Conheça Nossas Soluções Personalizadas
+              </Link>
             </Button>
           </div>
         </div>

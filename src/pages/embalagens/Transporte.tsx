@@ -61,11 +61,11 @@ const Transporte = () => {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Embalagens para <span className="text-secondary">Transporte</span>
+              Embalagens de Papelão para Transporte: <span className="text-secondary">Proteção e Eficiência em Cada Viagem</span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              Proteção e eficiência para seus produtos durante todo o processo logístico. 
-              Soluções especializadas para cada modal de transporte.
+              Precisando de embalagens de papelão para transporte? A Splendida oferece as melhores soluções do mercado. 
+              Trabalhamos com o objetivo de atender todas as expectativas dos clientes que solicitam embalagens de papelão para transporte.
             </p>
           </div>
         </div>
@@ -77,22 +77,21 @@ const Transporte = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-foreground">
-                Transporte Seguro e Eficiente
+                Soluções para Proteção no Transporte
               </h2>
               <div className="space-y-4 text-gray-text text-lg">
                 <p>
-                  Nossas embalagens para transporte são desenvolvidas especificamente 
-                  para proteger seus produtos durante toda a cadeia logística, desde 
-                  o armazenamento até a entrega final.
+                  Precisando de embalagens de papelão para transporte? A Splendida oferece as melhores soluções do mercado. 
+                  Trabalhamos com o objetivo de atender todas as expectativas dos clientes que solicitam embalagens de papelão para transporte.
                 </p>
                 <p>
-                  Utilizamos materiais de alta qualidade e design otimizado para 
-                  garantir máxima proteção contra impactos, vibrações, umidade e 
-                  outras adversidades do transporte.
+                  Visamos suprir todas as necessidades mercadológicas de nossos clientes por meio de embalagens de papelão para transporte. 
+                  Garantimos ótimos resultados e maiores lucros aos nossos clientes através das embalagens de papelão para transporte.
                 </p>
                 <p>
-                  Cada solução é pensada para oferecer o melhor custo-benefício, 
-                  otimizando espaço de carga e facilitando o manuseio operacional.
+                  A Splendida desenvolve embalagens de papelão para transporte, de qualquer especificação técnica, de acordo com as 
+                  exigências dos clientes. As embalagens de papelão para transporte protegem o seu produto de forma bastante eficiente 
+                  em vários tipos de viagens.
                 </p>
               </div>
             </div>
@@ -235,11 +234,11 @@ const Transporte = () => {
       <section className="py-16 bg-gradient-hero text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-            Precisa de Embalagens para Transporte?
+            Garanta a Segurança do Seu Produto: Solicite um Orçamento!
           </h2>
           <p className="text-xl mb-8 text-gray-200 max-w-2xl mx-auto">
-            Nossa equipe desenvolve soluções personalizadas para suas necessidades logísticas. 
-            Entre em contato e proteja melhor seus produtos durante o transporte.
+            Fale com a Splendida para saber mais informações sobre as embalagens de papelão para transporte. 
+            Nossa equipe desenvolve soluções personalizadas para suas necessidades logísticas.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -260,13 +259,9 @@ const Transporte = () => {
               size="lg"
               className="border-white text-white hover:bg-white hover:text-primary px-8 py-4 text-lg"
             >
-              <a 
-                href="https://wa.me/5511945190641?text=Olá! Gostaria de saber mais sobre embalagens para transporte."
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Falar no WhatsApp
-              </a>
+              <Link to="/embalagens/logistica">
+                Conheça Nossas Soluções para Logística
+              </Link>
             </Button>
           </div>
         </div>
