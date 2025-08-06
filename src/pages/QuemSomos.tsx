@@ -298,7 +298,7 @@ const QuemSomos = () => {
               asChild
               variant="outline"
               size="lg"
-              className="border-white text-white hover:bg-white hover:text-primary px-8 py-4 text-lg"
+              className="text-[#0d4172] border-[#0d4172] hover:bg-[#0d4172] hover:text-white px-8 py-4 text-lg"
             >
               <Link to="/contato">Fale Conosco</Link>
             </Button>
