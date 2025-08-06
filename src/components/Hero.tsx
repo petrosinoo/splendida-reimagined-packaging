@@ -46,7 +46,7 @@ const Hero = () => {
               asChild
               variant="outline"
               size="lg"
-              className="border-white text-white hover:bg-white hover:text-primary px-8 py-4 text-lg"
+              className="border-white text-[#0d4172] bg-white hover:bg-[#e3e3e3] hover:text-[#0d4172] px-8 py-4 text-lg"
             >
               <Link to="/quem-somos">
                 Conheça Nossa Empresa
