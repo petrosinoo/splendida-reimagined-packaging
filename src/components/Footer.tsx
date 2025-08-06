@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, Clock } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, Facebook, Youtube, Instagram, TrendingUp, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Footer = () => {
@@ -23,6 +23,57 @@ const Footer = () => {
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-secondary" />
                 <span>Rua São Roque 1135, Vila Japão<br />Itaquaquecetuba-SP</span>
+              </div>
+            </div>
+            
+            {/* Social Media */}
+            <div className="mt-4">
+              <div className="flex space-x-3">
+                <a 
+                  href="https://www.facebook.com/splendidaembalagens"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-blue-500 transition-colors"
+                  title="Facebook"
+                >
+                  <Facebook className="h-5 w-5" />
+                </a>
+                <a 
+                  href="https://www.youtube.com/@splendidalp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-red-500 transition-colors"
+                  title="YouTube"
+                >
+                  <Youtube className="h-5 w-5" />
+                </a>
+                <a 
+                  href="https://www.instagram.com/splendida_embalagens"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-pink-500 transition-colors"
+                  title="Instagram"
+                >
+                  <Instagram className="h-5 w-5" />
+                </a>
+                <a 
+                  href="https://www.tiktok.com/@splendidaembalage"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-black transition-colors"
+                  title="TikTok"
+                >
+                  <TrendingUp className="h-5 w-5" />
+                </a>
+                <a 
+                  href="https://www.linkedin.com/company/caixas-de-papel-o-splendida-embalagens/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-blue-700 transition-colors"
+                  title="LinkedIn"
+                >
+                  <Linkedin className="h-5 w-5" />
+                </a>
               </div>
             </div>
           </div>
