@@ -121,7 +121,7 @@ const Footer = () => {
                   Fale no WhatsApp
                 </a>
               </Button>
-              <Button asChild variant="outline" className="w-full text-white border-white hover:bg-white hover:text-foreground">
+              <Button asChild variant="outline" className="w-full text-[#0d4172] border-[#0d4172] hover:bg-[#0d4172] hover:text-[#e3e3e3]">
                 <a 
                   href="https://splendidaembalagens.com.br/orcamento/"
                   target="_blank"

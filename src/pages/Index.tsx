@@ -109,7 +109,7 @@ const Index = () => {
                 </p>
               </div>
               <div className="mt-8">
-                <Button asChild size="lg" variant="outline" className="text-primary border-primary hover:bg-primary hover:text-white">
+                <Button asChild size="lg" variant="outline" className="text-[#0d4172] border-[#0d4172] hover:bg-[#0d4172] hover:text-[#e3e3e3]">
                   <Link to="/quem-somos" className="flex items-center space-x-2">
                     <span>Conheça Nossa Empresa</span>
                     <ArrowRight className="h-5 w-5" />
@@ -271,7 +271,7 @@ const Index = () => {
               asChild
               variant="outline"
               size="lg"
-              className="border-white text-white hover:bg-white hover:text-primary px-8 py-4 text-lg"
+              className="text-[#0d4172] border-[#0d4172] hover:bg-[#0d4172] hover:text-[#e3e3e3] px-8 py-4 text-lg"
             >
               <a 
                 href="https://splendidaembalagens.com.br/orcamento/"
