@@ -70,7 +70,7 @@ const Header = () => {
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center space-y-1 md:space-y-0">
             <div className="w-full md:w-auto flex items-center space-x-1">
               <MapPin className="h-3 w-3 md:h-4 md:w-4 flex-shrink-0" />
-              <span className="text-xs md:text-sm">Rua São Roque 1135, Vila Japão - Itaquaquecetuba-SP</span>
+              <span className="text-[10px] md:text-sm flex-1">Rua São Roque 1135, Vila Japão - Itaquaquecetuba-SP</span>
             </div>
             <div className="flex items-center space-x-2 md:space-x-4">
               <div className="flex items-center space-x-1">
