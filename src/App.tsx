@@ -17,6 +17,18 @@ import Orcamento from "./pages/Orcamento";
 import Atuacao from "./pages/atuacao/Atuacao";
 import SaoPaulo from "./pages/atuacao/SaoPaulo";
 import ABC from "./pages/atuacao/ABC";
+import AltoTiete from "./pages/atuacao/AltoTiete";
+import ValeParaiba from "./pages/atuacao/ValeParaiba";
+import MinasGerais from "./pages/atuacao/MinasGerais";
+import RioJaneiro from "./pages/atuacao/RioJaneiro";
+import Bahia from "./pages/atuacao/Bahia";
+import Maranhao from "./pages/atuacao/Maranhao";
+import Pernambuco from "./pages/atuacao/Pernambuco";
+import RioGrandeNorte from "./pages/atuacao/RioGrandeNorte";
+import MatoGrosso from "./pages/atuacao/MatoGrosso";
+import Para from "./pages/atuacao/Para";
+import Ceara from "./pages/atuacao/Ceara";
+import EspiritoSanto from "./pages/atuacao/EspiritoSanto";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -40,6 +52,18 @@ const App = () => (
           <Route path="/atuacao" element={<Atuacao />} />
           <Route path="/atuacao/sao-paulo" element={<SaoPaulo />} />
           <Route path="/atuacao/abc" element={<ABC />} />
+          <Route path="/atuacao/alto-tiete" element={<AltoTiete />} />
+          <Route path="/atuacao/vale-paraiba" element={<ValeParaiba />} />
+          <Route path="/atuacao/minas-gerais" element={<MinasGerais />} />
+          <Route path="/atuacao/rio-janeiro" element={<RioJaneiro />} />
+          <Route path="/atuacao/bahia" element={<Bahia />} />
+          <Route path="/atuacao/maranhao" element={<Maranhao />} />
+          <Route path="/atuacao/pernambuco" element={<Pernambuco />} />
+          <Route path="/atuacao/rio-grande-norte" element={<RioGrandeNorte />} />
+          <Route path="/atuacao/mato-grosso" element={<MatoGrosso />} />
+          <Route path="/atuacao/para" element={<Para />} />
+          <Route path="/atuacao/ceara" element={<Ceara />} />
+          <Route path="/atuacao/espirito-santo" element={<EspiritoSanto />} />
           <Route path="/contato" element={<Contato />} />
           <Route path="/orcamento" element={<Orcamento />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
