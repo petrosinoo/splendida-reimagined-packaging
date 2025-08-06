@@ -28,27 +28,27 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               asChild
-              size="lg"
-              className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-8 py-4 text-lg font-semibold"
+              size="default"
+              className="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-6 py-3 text-base font-semibold w-full sm:w-auto"
             >
               <a 
                 href="https://splendidaembalagens.com.br/orcamento/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center space-x-2"
+                className="flex items-center justify-center space-x-2"
               >
                 <span>Solicitar Orçamento Personalizado</span>
-                <ArrowRight className="h-5 w-5" />
+                <ArrowRight className="h-4 w-4" />
               </a>
             </Button>
             
             <Button 
               asChild
               variant="outline"
-              size="lg"
-              className="border-white text-[#0d4172] bg-white hover:bg-[#e3e3e3] hover:text-[#0d4172] px-8 py-4 text-lg"
+              size="default"
+              className="border-white text-[#0d4172] bg-white hover:bg-[#e3e3e3] hover:text-[#0d4172] px-6 py-3 text-base w-full sm:w-auto"
             >
-              <Link to="/quem-somos">
+              <Link to="/quem-somos" className="flex items-center justify-center">
                 Conheça Nossa Empresa
               </Link>
             </Button>
