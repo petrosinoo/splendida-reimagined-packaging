@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-            https://www.linkedin.com/company/caixas-de-papel-o-splendida-embalagens/
+            Soluções Completas em Embalagens de Papelão para Sua Indústria
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed">
