@@ -93,7 +93,7 @@ const Header = () => {
             {/* Logo */}
             <Link to="/" className="flex items-center">
               <img 
-                src="/lovable-uploads/28d1374d-7952-40bd-a275-49559778cf2e.png" 
+                src="/lovable-uploads/ce553301-b01a-4afe-9c0a-e9af76ed38d0.png" 
                 alt="Splendida Embalagens"
                 className="h-32 w-auto"
               />
