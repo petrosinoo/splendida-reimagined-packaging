@@ -65,22 +65,22 @@ const Header = () => {
   return (
     <>
       {/* Top Bar */}
-      <div className="bg-primary text-primary-foreground py-2 px-4 text-sm">
-        <div className="container mx-auto flex justify-between items-center">
-          <div className="flex items-center space-x-4">
+      <div className="bg-primary text-primary-foreground py-2 px-4 text-xs md:text-sm">
+        <div className="container mx-auto flex flex-col md:flex-row justify-between items-start md:items-center space-y-1 md:space-y-0">
+          <div className="flex items-center space-x-2 md:space-x-4">
             <div className="flex items-center space-x-1">
-              <MapPin className="h-4 w-4" />
-              <span>Rua São Roque 1135, Vila Japão - Itaquaquecetuba-SP</span>
+              <MapPin className="h-3 w-3 md:h-4 md:w-4 flex-shrink-0" />
+              <span className="text-xs md:text-sm">Rua São Roque 1135, Vila Japão - Itaquaquecetuba-SP</span>
             </div>
           </div>
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-2 md:space-x-4">
             <div className="flex items-center space-x-1">
-              <Phone className="h-4 w-4" />
-              <span>(11) 2815-1023</span>
+              <Phone className="h-3 w-3 md:h-4 md:w-4 flex-shrink-0" />
+              <span className="text-xs md:text-sm">(11) 2815-1023</span>
             </div>
             <div className="flex items-center space-x-1">
-              <Phone className="h-4 w-4 text-green-400" />
-              <span>(11) 94519-0641</span>
+              <Phone className="h-3 w-3 md:h-4 md:w-4 text-green-400 flex-shrink-0" />
+              <span className="text-xs md:text-sm">(11) 94519-0641</span>
             </div>
           </div>
         </div>
