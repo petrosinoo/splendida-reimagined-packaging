@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, Clock, Facebook, Youtube, Instagram, TrendingUp, Linkedin } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, Facebook, Youtube, Instagram, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Footer = () => {
@@ -28,6 +28,7 @@ const Footer = () => {
             
             {/* Social Media */}
             <div className="mt-4">
+              <h4 className="text-sm font-semibold text-gray-300 mb-3">Siga nossas redes</h4>
               <div className="flex space-x-3">
                 <a 
                   href="https://www.facebook.com/splendidaembalagens"
@@ -63,7 +64,11 @@ const Footer = () => {
                   className="text-gray-300 hover:text-black transition-colors"
                   title="TikTok"
                 >
-                  <TrendingUp className="h-5 w-5" />
+                  <img 
+                    src="/lovable-uploads/a108eea1-b4e5-4a4e-a1bd-1e6cc2aa4112.png" 
+                    alt="TikTok" 
+                    className="h-5 w-5 filter brightness-0 invert opacity-75 hover:opacity-100 transition-opacity"
+                  />
                 </a>
                 <a 
                   href="https://www.linkedin.com/company/caixas-de-papel-o-splendida-embalagens/"
