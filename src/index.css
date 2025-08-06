@@ -22,7 +22,7 @@ All colors MUST be HSL.
     --primary: 206 79% 25%; /* Deep blue #0d4172 */
     --primary-foreground: 0 0% 100%;
     
-    --secondary: 25 95% 60%; /* Orange CTA color */
+    --secondary: 206 79% 25%; /* Changed from orange to #0d4172 */
     --secondary-foreground: 0 0% 100%;
 
     --muted: 210 40% 96%;
@@ -42,7 +42,7 @@ All colors MUST be HSL.
     
     /* Custom Splendida colors */
     --hero-bg: 210 50% 8%; /* Dark blue for hero background */
-    --orange-cta: 25 95% 60%; /* Bright orange for CTAs */
+    --orange-cta: 206 79% 25%; /* Changed from orange to #0d4172 */
     --light-blue: 205 85% 92%; /* Light blue for sections */
     --gray-text: 210 8% 45%; /* Gray for secondary text */
     
@@ -88,7 +88,7 @@ All colors MUST be HSL.
     --primary: 206 79% 25%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 25 95% 60%;
+    --secondary: 206 79% 25%;
     --secondary-foreground: 0 0% 100%;
 
     --muted: 210 40% 15%;
@@ -105,7 +105,7 @@ All colors MUST be HSL.
     --ring: 205 85% 60%;
     
     --hero-bg: 210 50% 6%;
-    --orange-cta: 25 95% 60%;
+    --orange-cta: 206 79% 25%;
     --light-blue: 205 85% 15%;
     --gray-text: 210 8% 65%;
     

@@ -121,7 +121,7 @@ const Footer = () => {
                   Fale no WhatsApp
                 </a>
               </Button>
-              <Button asChild variant="outline" className="w-full text-white border-white hover:bg-white hover:text-primary">
+              <Button asChild variant="outline" className="w-full text-white border-white hover:bg-white hover:text-foreground">
                 <a 
                   href="https://splendidaembalagens.com.br/orcamento/"
                   target="_blank"
@@ -135,7 +135,8 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-400">
-          <p>&copy; 2024 Splendida Embalagens. Todos os direitos reservados.</p>
+          <p>&copy; 2025 Splendida Embalagens. Todos os direitos reservados.</p>
+          <p className="mt-2">Desenvolvido por <a href="https://www.dynamodigital.com.br" target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-secondary/80">Dynamo Digital</a></p>
         </div>
       </div>
     </footer>

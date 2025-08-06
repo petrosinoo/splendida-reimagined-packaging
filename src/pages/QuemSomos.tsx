@@ -33,24 +33,24 @@ const QuemSomos = () => {
 
   const achievements = [
     {
-      number: '15+',
-      title: 'Anos de Experiência',
-      description: 'No mercado de embalagens'
+      number: '16',
+      title: 'Anos de Sucesso',
+      description: 'Tradição e conhecimento no mercado'
     },
     {
-      number: '500+',
+      number: '3.000',
       title: 'Clientes Atendidos',
-      description: 'Em diversas regiões'
+      description: 'Empresas que confiam em nosso trabalho'
     },
     {
-      number: '100%',
-      title: 'Sustentabilidade',
-      description: 'Materiais recicláveis'
+      number: '7.500',
+      title: 'Caixas Produzidas por Hora',
+      description: 'Capacidade de produção'
     },
     {
-      number: '24h',
-      title: 'Agilidade',
-      description: 'Resposta aos orçamentos'
+      number: '12.000',
+      title: 'Fabricação de Chapas H/S',
+      description: 'Matéria-prima processada diariamente'
     }
   ];
 

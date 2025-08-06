@@ -109,9 +109,9 @@ const Index = () => {
                 </p>
               </div>
               <div className="mt-8">
-                <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
+                <Button asChild size="lg" variant="outline" className="text-primary border-primary hover:bg-primary hover:text-white">
                   <Link to="/quem-somos" className="flex items-center space-x-2">
-                    <span>Conheça Mais Sobre a Splendida</span>
+                    <span>Conheça Nossa Empresa</span>
                     <ArrowRight className="h-5 w-5" />
                   </Link>
                 </Button>
