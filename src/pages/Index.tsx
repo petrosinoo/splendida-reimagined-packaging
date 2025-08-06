@@ -109,7 +109,7 @@ const Index = () => {
                 </p>
               </div>
               <div className="mt-8">
-                <Button asChild size="lg" variant="outline" className="text-[#0d4172] border-[#0d4172] hover:bg-[#0d4172] hover:text-white">
+                <Button asChild size="lg" variant="outline" className="bg-[#0d4172] text-white border-[#0d4172] hover:bg-white hover:text-[#0d4172] hover:border-[#0d4172]">
                   <Link to="/quem-somos" className="flex items-center space-x-2">
                     <span>Conheça Nossa Empresa</span>
                     <ArrowRight className="h-5 w-5" />
