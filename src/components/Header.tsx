@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { ChevronDown, Phone, MapPin, Menu, X } from 'lucide-react';
+import { ChevronDown, Phone, MapPin, Menu, X, Plus, Minus } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   NavigationMenu,
@@ -15,6 +15,7 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 const Header = () => {
   const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
+  const [openSubMenus, setOpenSubMenus] = useState<{[key: string]: boolean}>({});
 
   const navItems = [
     { name: 'Home', href: '/' },
@@ -61,6 +62,13 @@ const Header = () => {
     { name: 'Orçamento', href: 'https://splendidaembalagens.com.br/orcamento/', external: true },
     { name: 'Contato', href: '/contato' },
   ];
+
+  const toggleSubMenu = (menuName: string) => {
+    setOpenSubMenus(prev => ({
+      ...prev,
+      [menuName]: !prev[menuName]
+    }));
+  };
 
   return (
     <>
@@ -197,6 +205,65 @@ const Header = () => {
                             >
                               {item.name}
                             </a>
+                          ) : item.subItems ? (
+                            <div>
+                              <button
+                                onClick={() => toggleSubMenu(item.name)}
+                                className="flex items-center justify-between w-full py-2 text-foreground hover:text-primary transition-colors"
+                              >
+                                <span>{item.name}</span>
+                                {openSubMenus[item.name] ? (
+                                  <Minus className="h-4 w-4" />
+                                ) : (
+                                  <Plus className="h-4 w-4" />
+                                )}
+                              </button>
+                              {openSubMenus[item.name] && (
+                                <div className="ml-4 space-y-2 mt-2">
+                                  {item.subItems.map((subItem) => (
+                                    <div key={subItem.name}>
+                                      {subItem.subItems ? (
+                                        <div>
+                                          <button
+                                            onClick={() => toggleSubMenu(subItem.name)}
+                                            className="flex items-center justify-between w-full py-1 text-sm text-muted-foreground hover:text-foreground transition-colors"
+                                          >
+                                            <span>{subItem.name}</span>
+                                            {openSubMenus[subItem.name] ? (
+                                              <Minus className="h-3 w-3" />
+                                            ) : (
+                                              <Plus className="h-3 w-3" />
+                                            )}
+                                          </button>
+                                          {openSubMenus[subItem.name] && (
+                                            <div className="ml-4 space-y-1">
+                                              {subItem.subItems.map((nestedItem) => (
+                                                <Link
+                                                  key={nestedItem.name}
+                                                  to={nestedItem.href}
+                                                  className="block py-1 text-xs text-muted-foreground hover:text-foreground transition-colors"
+                                                  onClick={() => setIsOpen(false)}
+                                                >
+                                                  {nestedItem.name}
+                                                </Link>
+                                              ))}
+                                            </div>
+                                          )}
+                                        </div>
+                                      ) : (
+                                        <Link
+                                          to={subItem.href}
+                                          className="block py-1 text-sm text-muted-foreground hover:text-foreground transition-colors"
+                                          onClick={() => setIsOpen(false)}
+                                        >
+                                          {subItem.name}
+                                        </Link>
+                                      )}
+                                    </div>
+                                  ))}
+                                </div>
+                              )}
+                            </div>
                           ) : (
                             <Link
                               to={item.href}
@@ -205,35 +272,6 @@ const Header = () => {
                             >
                               {item.name}
                             </Link>
-                          )}
-                          {item.subItems && (
-                            <div className="ml-4 space-y-2 mt-2">
-                              {item.subItems.map((subItem) => (
-                                <div key={subItem.name}>
-                                  <Link
-                                    to={subItem.href}
-                                    className="block py-1 text-sm text-muted-foreground hover:text-foreground transition-colors"
-                                    onClick={() => setIsOpen(false)}
-                                  >
-                                    {subItem.name}
-                                  </Link>
-                                  {subItem.subItems && (
-                                    <div className="ml-4 space-y-1">
-                                      {subItem.subItems.map((nestedItem) => (
-                                        <Link
-                                          key={nestedItem.name}
-                                          to={nestedItem.href}
-                                          className="block py-1 text-xs text-muted-foreground hover:text-foreground transition-colors"
-                                          onClick={() => setIsOpen(false)}
-                                        >
-                                          {nestedItem.name}
-                                        </Link>
-                                      ))}
-                                    </div>
-                                  )}
-                                </div>
-                              ))}
-                            </div>
                           )}
                         </div>
                       ))}
