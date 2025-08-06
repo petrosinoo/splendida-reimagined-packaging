@@ -89,7 +89,7 @@ const Header = () => {
       {/* Main Header */}
       <header className="bg-background border-b border-border sticky top-0 z-50">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between h-40">
+          <div className="flex items-center justify-between h-32">
             {/* Logo */}
             <Link to="/" className="flex items-center">
               <img 
