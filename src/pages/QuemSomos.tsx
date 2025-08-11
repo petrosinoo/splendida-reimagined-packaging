@@ -102,8 +102,8 @@ const QuemSomos = () => {
             </div>
             <div className="relative">
               <img 
-                src={teamWorking} 
-                alt="Equipe da Splendida"
+                src="/lovable-uploads/a8d526c2-56b5-4b1c-9c4c-4d8f25526ed0.png" 
+                alt="Operário da Splendida trabalhando com empilhadeira no depósito"
                 className="rounded-lg shadow-card w-full h-auto"
               />
             </div>
