@@ -121,22 +121,22 @@ const Footer = () => {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link to="/embalagens/ondulado" className="text-gray-300 hover:text-secondary transition-colors">
-                  Embalagens Onduladas
+                  Caixas Onduladas
                 </Link>
               </li>
               <li>
                 <Link to="/embalagens/transporte" className="text-gray-300 hover:text-secondary transition-colors">
-                  Para Transporte
+                  Caixas para Transporte
                 </Link>
               </li>
               <li>
                 <Link to="/embalagens/alimentos" className="text-gray-300 hover:text-secondary transition-colors">
-                  Para Alimentos
+                  Caixas para Alimentos
                 </Link>
               </li>
               <li>
                 <Link to="/embalagens/personalizadas" className="text-gray-300 hover:text-secondary transition-colors">
-                  Personalizadas
+                  Caixas Personalizadas
                 </Link>
               </li>
             </ul>
