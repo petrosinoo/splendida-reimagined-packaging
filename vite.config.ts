@@ -5,8 +5,6 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // Linha adicionada para o GitHub Pages
-  base: '/splendida-reimagined-packaging/',
   server: {
     host: "::",
     port: 8080,
