@@ -119,8 +119,8 @@ const Index = () => {
             </div>
             <div className="relative">
               <img 
-                src={teamWorking} 
-                alt="Equipe da Splendida trabalhando"
+                src="/lovable-uploads/7d8a2b85-45dc-402f-a64f-52f54a409fe0.png" 
+                alt="Profissional da Splendida trabalhando com equipamentos industriais"
                 className="rounded-lg shadow-card w-full h-auto"
               />
             </div>
