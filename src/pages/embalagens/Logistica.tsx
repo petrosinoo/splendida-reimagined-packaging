@@ -64,9 +64,9 @@ const Logistica = () => {
   return (
     <Layout>
       <SEOHead 
-        title="Embalagens de Papelão para Logística - Distribuidor Splendida | Caixas de Papelão"
-        description="Embalagens de papelão para logística que otimizam processos e aumentam lucros. A Splendida oferece as melhores soluções em caixas de papelão para logística."
-        keywords="embalagens de papelão para logística, caixas de papelão para logística, embalagens logística, distribuidor embalagens papelão"
+        title="Caixas de Papelão para Logística - Embalagens de Papelão para Logística"
+        description="A Splendida disponibiliza as melhores caixas de papelão para logística. Fabricamos caixas de papelão para logística ideais para transporte de produtos por diferentes meios."
+        keywords="caixas de papelão para logística, embalagens de papelão para logística, caixas logística, embalagens logística"
         canonical="https://splendidaembalagens.com.br/embalagens/logistica"
       />
       {/* Hero Section */}
@@ -74,11 +74,11 @@ const Logistica = () => {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Embalagens de Papelão para Logística: <span className="text-secondary">Distribuidor Especializado</span>
+              Caixas de Papelão para Logística: <span className="text-secondary">Fabricante Especializado</span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              A Splendida, distribuidor de embalagens de papelão, disponibiliza as melhores caixas de papelão para logística. 
-              Trabalhamos com o objetivo de alcançar a excelência para atender todas as expectativas dos clientes que solicitam embalagens de papelão para logística.
+              A Splendida é uma empresa com grande experiência na fabricação de caixas de papelão para logística. 
+              Contamos com uma excelente estrutura para atender todas as demandas por caixas de papelão para logística, com muita rapidez e precisão.
             </p>
           </div>
         </div>

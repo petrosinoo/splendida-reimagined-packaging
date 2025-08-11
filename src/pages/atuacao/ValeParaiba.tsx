@@ -58,12 +58,12 @@ const ValeParaiba = () => {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Embalagens de Papelão no <span className="text-secondary">Vale do Paraíba</span>: 
-              Agilidade e Qualidade para Sua Empresa
+              Caixas de Papelão no <span className="text-secondary">Vale do Paraíba</span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              A Splendida oferece soluções completas em embalagens de papelão para o Vale do Paraíba, 
-              garantindo agilidade na entrega e qualidade superior para sua empresa.
+              A Splendida oferece as melhores soluções para quem deseja comprar caixas de papelão no Vale do Paraíba. 
+              Trabalhamos com a missão de atender todas as expectativas dos clientes que buscam caixas de papelão no 
+              Vale do Paraíba. Comercializamos caixas de papelão no Vale do Paraíba com o objetivo de suprimir as necessidades mercadológicas.
             </p>
           </div>
         </div>

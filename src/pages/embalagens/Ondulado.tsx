@@ -68,9 +68,9 @@ const Ondulado = () => {
   return (
     <Layout>
       <SEOHead 
-        title="Embalagens de Papelão Ondulado - Distribuidor Splendida | Caixas de Papelão"
-        description="Distribuidor de embalagens de papelão ondulado especializado em caixas de papelão ondulado com qualidade superior. A Splendida oferece soluções completas para sua empresa."
-        keywords="embalagens de papelão ondulado, caixas de papelão ondulado, distribuidor de embalagens de papelão, splendida embalagens"
+        title="Caixas de Papelão Ondulado - Fabricante de Caixas de Papelão Ondulado"
+        description="A Splendida é especializada na fabricação de caixas de papelão ondulado. Desenvolvemos caixas de papelão ondulado de qualquer especificação técnica para transporte seguro."
+        keywords="caixas de papelão ondulado, fabricante de caixas de papelão ondulado, embalagens de papelão ondulado, papelão ondulado"
         canonical="https://splendidaembalagens.com.br/embalagens/ondulado"
       />
       {/* Hero Section */}
@@ -78,11 +78,11 @@ const Ondulado = () => {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Embalagens de Papelão Ondulado: <span className="text-secondary">Distribuidor Especializado</span>
+              Caixas de Papelão Ondulado: <span className="text-secondary">Fabricante Especializado</span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              Com grande experiência no mercado, a Splendida é um distribuidor de embalagens de papelão ondulado 
-              especializado no desenvolvimento de caixas de papelão ondulado com elevados padrões de qualidade, eficiência e desempenho.
+              A Splendida é uma empresa especializada na fabricação de caixas de papelão ondulado. Trabalhamos com o 
+              objetivo de atender todas as necessidades dos clientes que solicitam caixas de papelão ondulado para seus produtos.
             </p>
           </div>
         </div>

@@ -58,12 +58,12 @@ const AltoTiete = () => {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Embalagens de Papelão no <span className="text-secondary">Alto Tietê</span>: 
-              Agilidade e Qualidade para Sua Empresa
+              Caixas de Papelão no <span className="text-secondary">Alto Tietê</span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              A Splendida oferece soluções completas em embalagens de papelão para o Alto Tietê, 
-              garantindo agilidade na entrega e qualidade superior para sua empresa.
+              A Splendida oferece ótimas soluções em caixas de papelão no Alto Tietê. Trabalhamos com o objetivo de 
+              atender todas as expectativas dos clientes que solicitam caixas de papelão no Alto Tietê. Contamos com 
+              uma estrutura capaz de atender todas as demandas por caixas de papelão no Alto Tietê com muita rapidez e precisão.
             </p>
           </div>
         </div>

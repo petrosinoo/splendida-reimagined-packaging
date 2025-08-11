@@ -58,9 +58,9 @@ const Transporte = () => {
   return (
     <Layout>
       <SEOHead 
-        title="Embalagens de Papelão para Transporte - Distribuidor Splendida | Caixas de Papelão"
-        description="Embalagens de papelão para transporte com proteção eficiente. A Splendida, distribuidor de embalagens de papelão, oferece as melhores soluções para transporte."
-        keywords="embalagens de papelão para transporte, caixas de papelão para transporte, embalagens transporte, distribuidor embalagens papelão"
+        title="Caixas de Papelão para Transporte - Embalagens de Papelão para Transporte"
+        description="A Splendida oferece as melhores caixas de papelão para transporte. Fabricamos caixas de papelão para transporte de extrema qualidade para proteger produtos em viagens."
+        keywords="caixas de papelão para transporte, embalagens de papelão para transporte, caixas transporte, embalagens transporte"
         canonical="https://splendidaembalagens.com.br/embalagens/transporte"
       />
       {/* Hero Section */}
@@ -68,11 +68,11 @@ const Transporte = () => {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Embalagens de Papelão para Transporte: <span className="text-secondary">Distribuidor Especializado</span>
+              Caixas de Papelão para Transporte: <span className="text-secondary">Fabricante Especializado</span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              Precisando de embalagens de papelão para transporte? A Splendida, distribuidor de embalagens de papelão, oferece as melhores caixas de papelão para transporte do mercado. 
-              Trabalhamos com o objetivo de atender todas as expectativas dos clientes que solicitam embalagens de papelão para transporte.
+              A Splendida oferece as melhores soluções do mercado para quem procura caixas de papelão para transporte. 
+              Trabalhamos para atender de forma eficiente todas as expectativas dos clientes que solicitam caixas de papelão para transporte.
             </p>
           </div>
         </div>

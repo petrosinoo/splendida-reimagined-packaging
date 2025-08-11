@@ -40,11 +40,11 @@ const Impressas = () => {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Embalagens de Papelão Impressas: <span className="text-secondary">Destaque e Personalização para Sua Marca</span>
+              Caixas de Papelão Impressas: <span className="text-secondary">Especialista em Caixas de Papelão Impressas</span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              A Splendida é uma empresa especializada no desenvolvimento de embalagens de papelão impressas. 
-              Trabalhamos com a filosofia de buscar constantemente a excelência no atendimento aos clientes.
+              A Splendida é uma empresa especializada na fabricação de caixas de papelão impressas. Disponibilizamos 
+              ótimos modelos de caixas de papelão impressas para empresas dos mais diversos portes e segmentos do mercado.
             </p>
           </div>
         </div>
