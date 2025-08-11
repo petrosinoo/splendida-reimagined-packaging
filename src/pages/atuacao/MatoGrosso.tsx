@@ -58,8 +58,7 @@ const MatoGrosso = () => {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Embalagens de Papelão em <span className="text-secondary">Mato Grosso</span>: 
-              Agilidade e Qualidade para Sua Empresa
+              Caixas de Papelão em <span className="text-secondary">Mato Grosso</span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
               A Splendida oferece soluções completas em embalagens de papelão para Mato Grosso, 
