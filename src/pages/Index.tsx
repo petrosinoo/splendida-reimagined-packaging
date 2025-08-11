@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Star, Clock, Recycle, Users, Lightbulb, MapPin } from 'lucide-react';
 import Layout from '@/components/Layout';
 import Hero from '@/components/Hero';
+import SEOHead from '@/components/SEOHead';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import cardboardBoxes from '@/assets/cardboard-boxes.jpg';
@@ -13,26 +14,26 @@ const Index = () => {
   const services = [
     {
       icon: '📦',
-      title: 'Embalagens Onduladas',
-      description: 'Alta qualidade, eficiência e desempenho para diversas aplicações.',
+      title: 'Caixas Onduladas',
+      description: 'Embalagens de papelão ondulado com alta qualidade, eficiência e desempenho para diversas aplicações.',
       link: '/embalagens/ondulado'
     },
     {
       icon: '🚚',
-      title: 'Para Transporte',
-      description: 'Proteção e eficiência para seus produtos durante o processo logístico.',
+      title: 'Caixas para Transporte',
+      description: 'Embalagens de papelão para transporte com proteção e eficiência durante o processo logístico.',
       link: '/embalagens/transporte'
     },
     {
       icon: '🎨',
-      title: 'Personalizadas',
-      description: 'Destaque sua marca com designs únicos e impressão de alta qualidade.',
+      title: 'Caixas Personalizadas',
+      description: 'Embalagens de papelão impressas e estampadas para destacar sua marca.',
       link: '/embalagens/personalizadas'
     },
     {
       icon: '🍎',
-      title: 'Para Alimentos',
-      description: 'Segurança, qualidade e sustentabilidade para produtos alimentícios.',
+      title: 'Caixas para Alimentos',
+      description: 'Embalagens de papelão para alimentos com segurança, qualidade e sustentabilidade.',
       link: '/embalagens/alimentos'
     }
   ];
@@ -82,6 +83,12 @@ const Index = () => {
 
   return (
     <Layout>
+      <SEOHead 
+        title="Splendida - Distribuidor de Embalagens de Papelão | Caixas de Papelão Ondulado"
+        description="Distribuidor de embalagens de papelão especializado em caixas de papelão ondulado, embalagens para transporte, alimentos e logística. Splendida embalagens de papelão com qualidade e preço competitivo."
+        keywords="distribuidor de embalagens de papelão, caixas de papelão, embalagens de papelão ondulado, embalagens para transporte, embalagens para alimentos, splendida embalagens"
+        canonical="https://splendidaembalagens.com.br/"
+      />
       <Hero />
       
       {/* About Section */}
@@ -90,21 +97,21 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-foreground">
-                Bem-vindo à Splendida
+                Distribuidor de Embalagens de Papelão - Splendida
               </h2>
               <div className="space-y-4 text-gray-text">
                 <p className="text-lg">
                   A Splendida é um distribuidor de embalagens de papelão que
                   trabalha com o objetivo de atender todas as necessidades dos
-                  clientes, desenvolvendo soluções inteligentes para atender todas
-                  as expectativas. Contamos com uma excelente estrutura para
+                  clientes, desenvolvendo caixas de papelão ondulado e soluções inteligentes para atender todas
+                  as expectativas. Como distribuidor de embalagens de papelão, contamos com uma excelente estrutura para
                   atender todos os tipos de demandas com muita agilidade e
                   precisão.
                 </p>
                 <p className="text-lg">
-                  Com grande experiência no mercado, somos uma empresa
-                  especializada no desenvolvimento de embalagens de papelão
-                  ondulado, com elevados padrões de qualidade, eficiência e
+                  Com grande experiência no mercado, somos um distribuidor de embalagens de papelão
+                  especializada no desenvolvimento de caixas de papelão ondulado, embalagens de papelão para transporte,
+                  embalagens de papelão para alimentos e embalagens de papelão para logística, com elevados padrões de qualidade, eficiência e
                   desempenho na produção.
                 </p>
               </div>
@@ -133,10 +140,10 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-foreground">
-              Nossas Embalagens
+              Nossas Caixas de Papelão
             </h2>
             <p className="text-xl text-gray-text max-w-2xl mx-auto">
-              Soluções completas para otimizar sua logística e proteger seus produtos.
+              Distribuidor de embalagens de papelão com soluções completas para otimizar sua logística e proteger seus produtos.
             </p>
           </div>
 

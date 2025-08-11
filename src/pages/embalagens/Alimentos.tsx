@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, CheckCircle, Package, Shield, Utensils, Recycle, Users, Clock } from 'lucide-react';
 import Layout from '@/components/Layout';
+import SEOHead from '@/components/SEOHead';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import cardboardBoxes from '@/assets/cardboard-boxes.jpg';
@@ -58,15 +59,21 @@ const Alimentos = () => {
 
   return (
     <Layout>
+      <SEOHead 
+        title="Embalagens de Papelão para Alimentos - Distribuidor Splendida | Caixas de Papelão"
+        description="Embalagens de papelão para alimentos com segurança e qualidade. A Splendida, distribuidor de embalagens de papelão, oferece caixas específicas para a indústria alimentícia."
+        keywords="embalagens de papelão para alimentos, caixas de papelão para alimentos, embalagens alimentos, distribuidor embalagens papelão"
+        canonical="https://splendidaembalagens.com.br/embalagens/alimentos"
+      />
       {/* Hero Section */}
       <section className="py-20 bg-gradient-hero text-white">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Embalagens de Papelão para Alimentos: <span className="text-secondary">Segurança, Qualidade e Sustentabilidade</span>
+              Embalagens de Papelão para Alimentos: <span className="text-secondary">Distribuidor Especializado</span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              Procurando embalagens de papelão para alimentos? A Splendida oferece as melhores soluções do mercado. 
+              Procurando embalagens de papelão para alimentos? A Splendida, distribuidor de embalagens de papelão, oferece as melhores caixas de papelão para alimentos do mercado. 
               A empresa possui grande experiência no desenvolvimento de embalagens de papelão para alimentos dos mais variados tipos.
             </p>
           </div>

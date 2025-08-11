@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Palette, Printer, Image, CheckCircle, Sparkles, Brush } from 'lucide-react';
 import Layout from '@/components/Layout';
+import SEOHead from '@/components/SEOHead';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import customPackaging from '@/assets/custom-packaging.jpg';
@@ -42,16 +43,22 @@ const Personalizadas = () => {
 
   return (
     <Layout>
+      <SEOHead 
+        title="Embalagens de Papelão Impressas e Estampadas - Distribuidor Splendida"
+        description="Embalagens de papelão impressas e estampadas personalizadas. A Splendida oferece caixas de papelão personalizadas com impressão em diferentes cores."
+        keywords="embalagens de papelão impressas, embalagens de papelão estampadas, caixas personalizadas, embalagens personalizadas"
+        canonical="https://splendidaembalagens.com.br/embalagens/personalizadas"
+      />
       {/* Hero Section */}
       <section className="py-20 bg-gradient-hero text-white">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Embalagens de Papelão Personalizadas: <span className="text-secondary">Sua Marca em Destaque</span>
+              Embalagens de Papelão Impressas e Estampadas: <span className="text-secondary">Distribuidor Especializado</span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              A Splendida oferece soluções inteligentes e práticas que resultam em benefícios para os clientes que solicitam embalagens de papelão estampadas. 
-              Produzimos embalagens de papelão para empresas com impressões em diferentes cores.
+              A Splendida, distribuidor de embalagens de papelão, oferece soluções inteligentes em embalagens de papelão estampadas e embalagens de papelão impressas. 
+              Produzimos caixas de papelão personalizadas para empresas com impressões em diferentes cores.
             </p>
           </div>
         </div>

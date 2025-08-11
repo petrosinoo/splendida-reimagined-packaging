@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, CheckCircle, Package, Truck, TrendingUp, Clock, Zap, Users } from 'lucide-react';
 import Layout from '@/components/Layout';
+import SEOHead from '@/components/SEOHead';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import cardboardBoxes from '@/assets/cardboard-boxes.jpg';
@@ -62,16 +63,22 @@ const Logistica = () => {
 
   return (
     <Layout>
+      <SEOHead 
+        title="Embalagens de Papelão para Logística - Distribuidor Splendida | Caixas de Papelão"
+        description="Embalagens de papelão para logística que otimizam processos e aumentam lucros. A Splendida oferece as melhores soluções em caixas de papelão para logística."
+        keywords="embalagens de papelão para logística, caixas de papelão para logística, embalagens logística, distribuidor embalagens papelão"
+        canonical="https://splendidaembalagens.com.br/embalagens/logistica"
+      />
       {/* Hero Section */}
       <section className="py-20 bg-gradient-hero text-white">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Embalagens de Papelão para Logística: <span className="text-secondary">Otimize Seus Processos e Aumente Seus Lucros</span>
+              Embalagens de Papelão para Logística: <span className="text-secondary">Distribuidor Especializado</span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              A Splendida disponibiliza as melhores soluções para quem procura embalagens de papelão para logística. 
-              Trabalhamos com o objetivo de alcançar a excelência para atender todas as expectativas dos clientes.
+              A Splendida, distribuidor de embalagens de papelão, disponibiliza as melhores caixas de papelão para logística. 
+              Trabalhamos com o objetivo de alcançar a excelência para atender todas as expectativas dos clientes que solicitam embalagens de papelão para logística.
             </p>
           </div>
         </div>

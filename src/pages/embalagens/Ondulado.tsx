@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, CheckCircle, Package, Shield, Layers, Recycle, Users, Cog } from 'lucide-react';
 import Layout from '@/components/Layout';
+import SEOHead from '@/components/SEOHead';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import cardboardBoxes from '@/assets/cardboard-boxes.jpg';
@@ -66,16 +67,22 @@ const Ondulado = () => {
 
   return (
     <Layout>
+      <SEOHead 
+        title="Embalagens de Papelão Ondulado - Distribuidor Splendida | Caixas de Papelão"
+        description="Distribuidor de embalagens de papelão ondulado especializado em caixas de papelão ondulado com qualidade superior. A Splendida oferece soluções completas para sua empresa."
+        keywords="embalagens de papelão ondulado, caixas de papelão ondulado, distribuidor de embalagens de papelão, splendida embalagens"
+        canonical="https://splendidaembalagens.com.br/embalagens/ondulado"
+      />
       {/* Hero Section */}
       <section className="py-20 bg-gradient-hero text-white">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Embalagens de Papelão Ondulado: <span className="text-secondary">Qualidade, Eficiência e Desempenho</span>
+              Embalagens de Papelão Ondulado: <span className="text-secondary">Distribuidor Especializado</span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              Com grande experiência no mercado, a Splendida é uma empresa especializada no desenvolvimento 
-              de embalagens de papelão ondulado com elevados padrões de qualidade, eficiência e desempenho.
+              Com grande experiência no mercado, a Splendida é um distribuidor de embalagens de papelão ondulado 
+              especializado no desenvolvimento de caixas de papelão ondulado com elevados padrões de qualidade, eficiência e desempenho.
             </p>
           </div>
         </div>

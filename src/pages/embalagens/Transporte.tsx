@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Truck, Shield, Package, Globe, CheckCircle } from 'lucide-react';
 import Layout from '@/components/Layout';
+import SEOHead from '@/components/SEOHead';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import cardboardBoxes from '@/assets/cardboard-boxes.jpg';
@@ -56,15 +57,21 @@ const Transporte = () => {
 
   return (
     <Layout>
+      <SEOHead 
+        title="Embalagens de Papelão para Transporte - Distribuidor Splendida | Caixas de Papelão"
+        description="Embalagens de papelão para transporte com proteção eficiente. A Splendida, distribuidor de embalagens de papelão, oferece as melhores soluções para transporte."
+        keywords="embalagens de papelão para transporte, caixas de papelão para transporte, embalagens transporte, distribuidor embalagens papelão"
+        canonical="https://splendidaembalagens.com.br/embalagens/transporte"
+      />
       {/* Hero Section */}
       <section className="py-20 bg-gradient-hero text-white">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Embalagens de Papelão para Transporte: <span className="text-secondary">Proteção e Eficiência em Cada Viagem</span>
+              Embalagens de Papelão para Transporte: <span className="text-secondary">Distribuidor Especializado</span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              Precisando de embalagens de papelão para transporte? A Splendida oferece as melhores soluções do mercado. 
+              Precisando de embalagens de papelão para transporte? A Splendida, distribuidor de embalagens de papelão, oferece as melhores caixas de papelão para transporte do mercado. 
               Trabalhamos com o objetivo de atender todas as expectativas dos clientes que solicitam embalagens de papelão para transporte.
             </p>
           </div>
@@ -77,16 +84,16 @@ const Transporte = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-foreground">
-                Soluções para Proteção no Transporte
+                Detalhes sobre Embalagens de Papelão para Transporte
               </h2>
               <div className="space-y-4 text-gray-text text-lg">
                 <p>
-                  Precisando de embalagens de papelão para transporte? A Splendida oferece as melhores soluções do mercado. 
-                  Trabalhamos com o objetivo de atender todas as expectativas dos clientes que solicitam embalagens de papelão para transporte.
+                  A Splendida desenvolve embalagens de papelão para transporte, de qualquer especificação técnica, de acordo com as exigências dos clientes. 
+                  As embalagens de papelão para transporte protegem o seu produto de forma bastante eficiente em vários tipos de viagens.
                 </p>
                 <p>
-                  Visamos suprir todas as necessidades mercadológicas de nossos clientes por meio de embalagens de papelão para transporte. 
-                  Garantimos ótimos resultados e maiores lucros aos nossos clientes através das embalagens de papelão para transporte.
+                  Comercializamos as melhores embalagens de papelão para transporte, para clientes dos mais diversos portes e segmentos. 
+                  Fabricamos modelos personalizados de embalagens de papelão para transporte, com impressões em diferentes cores.
                 </p>
                 <p>
                   A Splendida desenvolve embalagens de papelão para transporte, de qualquer especificação técnica, de acordo com as 

@@ -77,11 +77,11 @@ const QuemSomos = () => {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Conheça a <span className="text-secondary">Splendida</span>
+              Distribuidor de Embalagens de Papelão <span className="text-secondary">Splendida</span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              Uma empresa jovem que nasceu com um conceito inovador, 
-              dedicada a revolucionar o mercado de embalagens de papelão.
+              A Splendida é um distribuidor de embalagens de papelão que trabalha com o objetivo de atender todas as necessidades dos clientes. 
+              O distribuidor de embalagens de papelão tem como filosofia a busca pela excelência em todos os seus processos.
             </p>
           </div>
         </div>
@@ -103,16 +103,13 @@ const QuemSomos = () => {
                   do nosso trabalho diário.
                 </p>
                 <p>
-                  Somos um distribuidor de embalagens de papelão que trabalha com o 
-                  objetivo de atender todas as necessidades dos clientes, desenvolvendo 
-                  soluções inteligentes para atender todas as expectativas. Contamos 
-                  com uma excelente estrutura para atender todos os tipos de demandas 
-                  com muita agilidade e precisão.
+                  Somos um distribuidor de embalagens de papelão que desenvolve caixas de papelão ondulado de qualquer especificação técnica. 
+                  O distribuidor de embalagens de papelão disponibiliza produtos para: indústria alimentícia, bebidas, agroindústria, 
+                  metalúrgica, fruticultura, automobilística, informática, entre várias outras.
                 </p>
                 <p>
-                  Com grande experiência no mercado, somos uma empresa especializada 
-                  no desenvolvimento de embalagens de papelão ondulado, com elevados 
-                  padrões de qualidade, eficiência e desempenho na produção.
+                  O distribuidor de embalagens de papelão utiliza matéria-prima de alta qualidade para a fabricação dos produtos. 
+                  Como distribuidor de embalagens de papelão, garantimos muita eficiência nos processos de impressão, acabamento e prazo de entrega.
                 </p>
               </div>
             </div>
