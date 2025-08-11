@@ -4,6 +4,7 @@ import { ArrowRight, Target, Eye, Heart, Award, Users, Truck } from 'lucide-reac
 import Layout from '@/components/Layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import teamWorking from '@/assets/team-working.jpg';
 import cardboardBoxes from '@/assets/cardboard-boxes.jpg';
 
@@ -51,6 +52,21 @@ const QuemSomos = () => {
       number: '12.000',
       title: 'Fabricação de Chapas H/S',
       description: 'Matéria-prima processada diariamente'
+    }
+  ];
+
+  const structureImages = [
+    {
+      src: "/lovable-uploads/b6d5243a-6844-4edb-97d4-827340cb20e9.png",
+      alt: "Operário da Splendida monitorando equipamentos de produção com sistemas de controle"
+    },
+    {
+      src: "/lovable-uploads/bccbf85d-f296-4cff-9090-8c558f5bea84.png",
+      alt: "Funcionária da Splendida operando equipamentos de qualidade no depósito"
+    },
+    {
+      src: "/lovable-uploads/2b3e673e-3802-4a81-bb97-78e63b1569bb.png",
+      alt: "Equipamentos modernos de produção de embalagens na fábrica da Splendida"
     }
   ];
 
@@ -229,11 +245,21 @@ const QuemSomos = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative">
-              <img 
-                src="/lovable-uploads/b6d5243a-6844-4edb-97d4-827340cb20e9.png" 
-                alt="Operário da Splendida monitorando equipamentos de produção com sistemas de controle"
-                className="rounded-lg shadow-card w-full h-auto"
-              />
+              <Carousel className="w-full">
+                <CarouselContent>
+                  {structureImages.map((image, index) => (
+                    <CarouselItem key={index}>
+                      <img 
+                        src={image.src} 
+                        alt={image.alt}
+                        className="rounded-lg shadow-card w-full h-auto"
+                      />
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+                <CarouselPrevious className="left-2" />
+                <CarouselNext className="right-2" />
+              </Carousel>
             </div>
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-foreground">
