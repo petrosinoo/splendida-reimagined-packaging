@@ -230,8 +230,8 @@ const QuemSomos = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative">
               <img 
-                src={cardboardBoxes} 
-                alt="Estrutura da Splendida"
+                src="/lovable-uploads/7b0a50dc-6a79-4123-8cfa-588723a17134.png" 
+                alt="Operário da Splendida operando equipamentos modernos na fábrica"
                 className="rounded-lg shadow-card w-full h-auto"
               />
             </div>
