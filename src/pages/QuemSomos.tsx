@@ -278,10 +278,6 @@ const QuemSomos = () => {
               <div className="space-y-3 mt-6">
                 <div className="flex items-center space-x-3">
                   <Award className="h-5 w-5 text-primary" />
-                  <span>Certificação ISO 9001</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <Award className="h-5 w-5 text-primary" />
                   <span>Processos sustentáveis</span>
                 </div>
                 <div className="flex items-center space-x-3">
