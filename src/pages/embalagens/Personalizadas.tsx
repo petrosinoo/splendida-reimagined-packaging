@@ -70,7 +70,7 @@ const Personalizadas = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-foreground">
-                Personalização que Faz a Diferença
+                Personalização que faz a diferença
               </h2>
               <div className="space-y-4 text-gray-text text-lg">
                 <p>
@@ -103,7 +103,7 @@ const Personalizadas = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-foreground">
-              Opções de Personalização
+              Opções de personalização
             </h2>
             <p className="text-xl text-gray-text max-w-2xl mx-auto">
               Escolha entre nossas diferentes opções de personalização para destacar sua marca.
@@ -141,7 +141,7 @@ const Personalizadas = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-foreground">
-              Benefícios da Personalização
+              Benefícios da personalização
             </h2>
             <p className="text-xl text-gray-text max-w-2xl mx-auto">
               Vantagens que a personalização oferece para destacar sua marca e proteger seus produtos.
@@ -171,7 +171,7 @@ const Personalizadas = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-foreground">
-              Processo de Criação
+              Processo de criação
             </h2>
             <p className="text-xl text-gray-text max-w-2xl mx-auto">
               Do conceito até a entrega, conheça como desenvolvemos sua embalagem personalizada.
@@ -207,7 +207,7 @@ const Personalizadas = () => {
       <section className="py-16 bg-gradient-hero text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-            Crie Sua Embalagem Única: Solicite um Orçamento!
+            Crie sua embalagem única: solicite um orçamento!
           </h2>
           <p className="text-xl mb-8 text-gray-200 max-w-2xl mx-auto">
             Entre em contato conosco para obter mais informações sobre as embalagens de papelão estampadas. 

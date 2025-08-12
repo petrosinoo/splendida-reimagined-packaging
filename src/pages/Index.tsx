@@ -141,7 +141,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-foreground">
-              Nossas Caixas de Papelão
+              Nossas caixas de papelão
             </h2>
             <p className="text-xl text-gray-text max-w-2xl mx-auto">
               Fábrica de caixas de papelão com soluções completas para otimizar sua logística e proteger seus produtos.
@@ -177,7 +177,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-foreground">
-              Por Que Escolher a Splendida?
+              Por que escolher a Splendida?
             </h2>
             <p className="text-xl text-gray-text max-w-2xl mx-auto">
               Nossos diferenciais que garantem a melhor solução para sua empresa.
@@ -217,7 +217,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-foreground">
-              Nossa Atuação Regional
+              Nossa atuação regional
             </h2>
             <p className="text-xl text-gray-text max-w-2xl mx-auto">
               Proximidade e agilidade com atendimento especializado em diversas regiões do Brasil.
@@ -252,7 +252,7 @@ const Index = () => {
       <section className="py-16 bg-gradient-hero text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-            Pronto para Encontrar a Solução Ideal?
+            Pronto para encontrar a solução ideal?
           </h2>
           <p className="text-xl mb-8 text-gray-200 max-w-2xl mx-auto">
             Fale com nossa equipe de especialistas e descubra como podemos
