@@ -104,7 +104,7 @@ const Header = () => {
               <img 
                 src="/lovable-uploads/db8afc0d-f756-40b5-9279-b3a3a971a247.png" 
                 alt="Splendida Embalagens de Papelão"
-                className="h-64 md:h-88 w-auto max-w-[840px] object-contain"
+                className="h-64 md:h-96 w-auto max-w-[1000px] object-contain"
               />
             </Link>
 
