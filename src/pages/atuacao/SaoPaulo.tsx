@@ -46,11 +46,10 @@ const SaoPaulo = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
               Caixas de Papelão em São Paulo: Fabricante de Caixas de Papelão
             </h1>
-            <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              A Splendida é fabricante de caixas de papelão em São Paulo com grande experiência no desenvolvimento de 
-              caixas de papelão em São Paulo para clientes dos mais diversos portes e segmentos. Trabalhamos com o 
-              objetivo de atender todas as necessidades dos clientes que solicitam caixas de papelão em São Paulo.
-            </p>
+             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
+               A Splendida é uma fábrica de caixas de papelão e oferece soluções completas em embalagens de papelão para São Paulo, 
+               garantindo agilidade na entrega e qualidade superior para sua empresa.
+             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button size="lg" asChild>
                 <a href="https://splendidaembalagens.com.br/orcamento/" target="_blank" rel="noopener noreferrer">

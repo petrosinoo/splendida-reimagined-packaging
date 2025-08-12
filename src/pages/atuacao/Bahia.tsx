@@ -60,10 +60,10 @@ const Bahia = () => {
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
               Caixas de Papelão na <span className="text-secondary">Bahia</span>
             </h1>
-            <p className="text-xl text-gray-200 leading-relaxed">
-              A Splendida oferece soluções completas em embalagens de papelão para a Bahia, 
-              garantindo agilidade na entrega e qualidade superior para sua empresa.
-            </p>
+             <p className="text-xl text-gray-200 leading-relaxed">
+               A Splendida é uma fábrica de caixas de papelão e oferece soluções completas em embalagens de papelão para Bahia, 
+               garantindo agilidade na entrega e qualidade superior para sua empresa.
+             </p>
           </div>
         </div>
       </section>

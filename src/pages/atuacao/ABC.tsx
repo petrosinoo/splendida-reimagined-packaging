@@ -46,11 +46,10 @@ const ABC = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
               Caixas de Papelão no ABC: Especializada em Caixas de Papelão no ABC
             </h1>
-            <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              A Splendida é especializada no desenvolvimento de caixas de papelão no ABC. Visamos atender de forma 
-              eficiente todas as expectativas dos clientes que desejam adquirir caixas de papelão no ABC. Fornecemos 
-              caixas de papelão no ABC com o objetivo de suprir as necessidades mercadológicas de nossos clientes.
-            </p>
+             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
+               A Splendida é uma fábrica de caixas de papelão e oferece soluções completas em embalagens de papelão para ABC, 
+               garantindo agilidade na entrega e qualidade superior para sua empresa.
+             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button size="lg" asChild>
                 <a href="https://splendidaembalagens.com.br/orcamento/" target="_blank" rel="noopener noreferrer">
