@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { ChevronDown, Phone, MapPin, Menu, X, Plus, Minus } from 'lucide-react';
-import logoSplendida from '@/assets/logo-splendida.png';
+import logoSplendida from '@/assets/logo-splendida-new.png';
 import { Button } from '@/components/ui/button';
 import {
   NavigationMenu,
