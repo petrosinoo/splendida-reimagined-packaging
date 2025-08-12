@@ -104,7 +104,7 @@ const Header = () => {
               <img 
                 src={logoSplendida} 
                 alt="Splendida Embalagens de Papelão"
-                className="h-24 md:h-28 w-auto max-w-[280px] object-contain"
+                className="h-32 md:h-36 w-auto max-w-[350px] object-contain"
               />
             </Link>
 
