@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { ChevronDown, Phone, MapPin, Menu, X, Plus, Minus } from 'lucide-react';
-// Usando novo logo enviado pelo usuário
+import logoSplendida from '@/assets/logo-splendida-novo.png';
 import { Button } from '@/components/ui/button';
 import {
   NavigationMenu,
@@ -102,7 +102,7 @@ const Header = () => {
             {/* Logo */}
             <Link to="/" className="flex items-center">
               <img 
-                src="/logo-splendida-novo.png" 
+                src={logoSplendida} 
                 alt="Splendida Embalagens de Papelão"
                 className="h-64 md:h-96 w-auto max-w-[1000px] object-contain"
               />
