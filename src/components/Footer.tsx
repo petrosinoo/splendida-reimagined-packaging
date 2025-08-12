@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Clock, Facebook, Youtube, Instagram, Linkedin } from 'lucide-react';
+import tiktokIcon from '@/assets/tiktok-icon.png';
 import { Button } from '@/components/ui/button';
 
 const Footer = () => {
@@ -65,7 +66,7 @@ const Footer = () => {
                   title="TikTok"
                 >
                   <img 
-                    src="/lovable-uploads/a108eea1-b4e5-4a4e-a1bd-1e6cc2aa4112.png" 
+                    src={tiktokIcon} 
                     alt="TikTok" 
                     className="h-5 w-5 filter brightness-0 invert opacity-75 hover:opacity-100 transition-opacity"
                   />

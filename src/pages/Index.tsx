@@ -9,6 +9,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import cardboardBoxes from '@/assets/cardboard-boxes.jpg';
 import teamWorking from '@/assets/team-working.jpg';
 import customPackaging from '@/assets/custom-packaging.jpg';
+import professionalWorking from '@/assets/professional-working.png';
 
 const Index = () => {
   const services = [
@@ -126,7 +127,7 @@ const Index = () => {
             </div>
             <div className="relative">
               <img 
-                src="/lovable-uploads/7d8a2b85-45dc-402f-a64f-52f54a409fe0.png" 
+                src={professionalWorking} 
                 alt="Profissional da Splendida trabalhando com equipamentos industriais"
                 className="rounded-lg shadow-card w-full h-auto"
               />

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-const heroImage = '/lovable-uploads/6f2a1150-cc93-43ff-b647-bb9219818f14.png';
+import heroImage from '@/assets/hero-background.png';
 
 const Hero = () => {
   return (

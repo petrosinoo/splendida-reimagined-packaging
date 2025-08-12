@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { ChevronDown, Phone, MapPin, Menu, X, Plus, Minus } from 'lucide-react';
+import logoSplendida from '@/assets/logo-splendida.png';
 import { Button } from '@/components/ui/button';
 import {
   NavigationMenu,
@@ -101,7 +102,7 @@ const Header = () => {
             {/* Logo */}
             <Link to="/" className="flex items-center">
               <img 
-                src="/lovable-uploads/e1ea4d15-ef35-4d02-8e7e-d6a1bdc723c5.png" 
+                src={logoSplendida} 
                 alt="Splendida Embalagens de Papelão"
                 className="h-24 md:h-28 w-auto max-w-[280px] object-contain"
               />

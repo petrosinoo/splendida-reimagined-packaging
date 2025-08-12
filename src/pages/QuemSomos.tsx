@@ -7,6 +7,10 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import teamWorking from '@/assets/team-working.jpg';
 import cardboardBoxes from '@/assets/cardboard-boxes.jpg';
+import workerForklift from '@/assets/worker-forklift.png';
+import productionMonitoring from '@/assets/production-monitoring.png';
+import qualityEquipment from '@/assets/quality-equipment.png';
+import modernEquipment from '@/assets/modern-equipment.png';
 
 const QuemSomos = () => {
   const values = [
@@ -57,15 +61,15 @@ const QuemSomos = () => {
 
   const structureImages = [
     {
-      src: "/lovable-uploads/b6d5243a-6844-4edb-97d4-827340cb20e9.png",
+      src: productionMonitoring,
       alt: "Operário da Splendida monitorando equipamentos de produção com sistemas de controle"
     },
     {
-      src: "/lovable-uploads/bccbf85d-f296-4cff-9090-8c558f5bea84.png",
+      src: qualityEquipment,
       alt: "Funcionária da Splendida operando equipamentos de qualidade no depósito"
     },
     {
-      src: "/lovable-uploads/2b3e673e-3802-4a81-bb97-78e63b1569bb.png",
+      src: modernEquipment,
       alt: "Equipamentos modernos de produção de embalagens na fábrica da Splendida"
     }
   ];
@@ -115,7 +119,7 @@ const QuemSomos = () => {
             </div>
             <div className="relative">
               <img 
-                src="/lovable-uploads/a8d526c2-56b5-4b1c-9c4c-4d8f25526ed0.png" 
+                src={workerForklift} 
                 alt="Operário da Splendida trabalhando com empilhadeira no depósito"
                 className="rounded-lg shadow-card w-full h-auto"
               />
