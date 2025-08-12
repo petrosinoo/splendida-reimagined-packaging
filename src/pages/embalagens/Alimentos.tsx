@@ -49,7 +49,7 @@ const Alimentos = () => {
     },
     {
       title: 'Setor de Bebidas',
-      description: 'A Splendida é uma distribuidora de caixas de papelão para os setores: alimentícios, de bebidas.'
+      description: 'A Splendida é uma fábrica de caixas de papelão para os setores: alimentícios, de bebidas.'
     },
     {
       title: 'Agroindústria',
@@ -168,7 +168,7 @@ const Alimentos = () => {
                   das áreas: alimentícia.
                 </p>
                 <p>
-                  A Splendida é uma distribuidora de caixas de papelão para os setores: alimentícios, de bebidas. 
+                  A Splendida é uma fábrica de caixas de papelão para os setores: alimentícios, de bebidas. 
                   Utilizamos materiais de primeira linha que garantem a segurança dos alimentos e a sustentabilidade ambiental.
                 </p>
                 <div className="space-y-3">
