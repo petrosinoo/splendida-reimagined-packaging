@@ -12,6 +12,8 @@ import Logistica from "./pages/embalagens/Logistica";
 import Alimentos from "./pages/embalagens/Alimentos";
 import Personalizadas from "./pages/embalagens/Personalizadas";
 import Impressas from "./pages/embalagens/personalizadas/Impressas";
+import Estampadas from "./pages/embalagens/personalizadas/Estampadas";
+import Segmento from "./pages/embalagens/Segmento";
 import Contato from "./pages/Contato";
 import Orcamento from "./pages/Orcamento";
 import Atuacao from "./pages/atuacao/Atuacao";
@@ -49,6 +51,8 @@ const App = () => (
           <Route path="/embalagens/alimentos" element={<Alimentos />} />
           <Route path="/embalagens/personalizadas" element={<Personalizadas />} />
           <Route path="/embalagens/personalizadas/impressas" element={<Impressas />} />
+          <Route path="/embalagens/personalizadas/estampadas" element={<Estampadas />} />
+          <Route path="/embalagens/segmento" element={<Segmento />} />
           <Route path="/atuacao" element={<Atuacao />} />
           <Route path="/atuacao/sao-paulo" element={<SaoPaulo />} />
           <Route path="/atuacao/abc" element={<ABC />} />
