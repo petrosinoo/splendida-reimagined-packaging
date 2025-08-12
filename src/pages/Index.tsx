@@ -85,9 +85,9 @@ const Index = () => {
   return (
     <Layout>
       <SEOHead 
-        title="Splendida - Distribuidor de Embalagens de Papelão | Caixas de Papelão Ondulado"
-        description="Distribuidor de embalagens de papelão especializado em caixas de papelão ondulado, embalagens para transporte, alimentos e logística. Splendida embalagens de papelão com qualidade e preço competitivo."
-        keywords="distribuidor de embalagens de papelão, caixas de papelão, embalagens de papelão ondulado, embalagens para transporte, embalagens para alimentos, splendida embalagens"
+        title="Splendida - Fábrica de caixas de papelão | Caixas de Papelão Ondulado"
+        description="Fábrica de caixas de papelão especializada em caixas de papelão ondulado, embalagens para transporte, alimentos e logística. Splendida embalagens de papelão com qualidade e preço competitivo."
+        keywords="fábrica de caixas de papelão, caixas de papelão, embalagens de papelão ondulado, embalagens para transporte, embalagens para alimentos, splendida embalagens"
         canonical="https://splendidaembalagens.com.br/"
       />
       <Hero />
@@ -98,19 +98,19 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-foreground">
-                Distribuidor de Embalagens de Papelão - Splendida
+                Fábrica de caixas de papelão - Splendida
               </h2>
               <div className="space-y-4 text-gray-text">
                 <p className="text-lg">
-                  A Splendida é um distribuidor de embalagens de papelão que
+                  A Splendida é uma fábrica de caixas de papelão que
                   trabalha com o objetivo de atender todas as necessidades dos
                   clientes, desenvolvendo caixas de papelão ondulado e soluções inteligentes para atender todas
-                  as expectativas. Como distribuidor de embalagens de papelão, contamos com uma excelente estrutura para
+                  as expectativas. Como fábrica de caixas de papelão, contamos com uma excelente estrutura para
                   atender todos os tipos de demandas com muita agilidade e
                   precisão.
                 </p>
                 <p className="text-lg">
-                  Com grande experiência no mercado, somos um distribuidor de embalagens de papelão
+                  Com grande experiência no mercado, somos uma fábrica de caixas de papelão
                   especializada no desenvolvimento de caixas de papelão ondulado, embalagens de papelão para transporte,
                   embalagens de papelão para alimentos e embalagens de papelão para logística, com elevados padrões de qualidade, eficiência e
                   desempenho na produção.
@@ -144,7 +144,7 @@ const Index = () => {
               Nossas Caixas de Papelão
             </h2>
             <p className="text-xl text-gray-text max-w-2xl mx-auto">
-              Distribuidor de embalagens de papelão com soluções completas para otimizar sua logística e proteger seus produtos.
+              Fábrica de caixas de papelão com soluções completas para otimizar sua logística e proteger seus produtos.
             </p>
           </div>
 

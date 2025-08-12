@@ -61,7 +61,7 @@ const Alimentos = () => {
     <Layout>
       <SEOHead 
         title="Embalagens de Papelão para Alimentos - Distribuidor Splendida | Caixas de Papelão"
-        description="Embalagens de papelão para alimentos com segurança e qualidade. A Splendida, distribuidor de embalagens de papelão, oferece caixas específicas para a indústria alimentícia."
+        description="Embalagens de papelão para alimentos com segurança e qualidade. A Splendida, fábrica de caixas de papelão, oferece caixas específicas para a indústria alimentícia."
         keywords="embalagens de papelão para alimentos, caixas de papelão para alimentos, embalagens alimentos, distribuidor embalagens papelão"
         canonical="https://splendidaembalagens.com.br/embalagens/alimentos"
       />
@@ -73,7 +73,7 @@ const Alimentos = () => {
               Embalagens de Papelão para Alimentos: <span className="text-secondary">Distribuidor Especializado</span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              Procurando embalagens de papelão para alimentos? A Splendida, distribuidor de embalagens de papelão, oferece as melhores caixas de papelão para alimentos do mercado. 
+              Procurando embalagens de papelão para alimentos? A Splendida, fábrica de caixas de papelão, oferece as melhores caixas de papelão para alimentos do mercado. 
               A empresa possui grande experiência no desenvolvimento de embalagens de papelão para alimentos dos mais variados tipos.
             </p>
           </div>

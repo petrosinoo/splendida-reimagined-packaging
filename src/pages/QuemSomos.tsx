@@ -81,11 +81,11 @@ const QuemSomos = () => {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Distribuidor de Embalagens de Papelão <span className="text-secondary">Splendida</span>
+              Fábrica de caixas de papelão <span className="text-secondary">Splendida</span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              A Splendida é um distribuidor de embalagens de papelão que trabalha com o objetivo de atender todas as necessidades dos clientes. 
-              O distribuidor de embalagens de papelão tem como filosofia a busca pela excelência em todos os seus processos.
+              A Splendida é uma fábrica de caixas de papelão que trabalha com o objetivo de atender todas as necessidades dos clientes. 
+              A fábrica de caixas de papelão tem como filosofia a busca pela excelência em todos os seus processos.
             </p>
           </div>
         </div>
@@ -107,13 +107,13 @@ const QuemSomos = () => {
                   do nosso trabalho diário.
                 </p>
                 <p>
-                  Somos um distribuidor de embalagens de papelão que desenvolve caixas de papelão ondulado de qualquer especificação técnica. 
-                  O distribuidor de embalagens de papelão disponibiliza produtos para: indústria alimentícia, bebidas, agroindústria, 
+                  Somos uma fábrica de caixas de papelão que desenvolve caixas de papelão ondulado de qualquer especificação técnica. 
+                  A fábrica de caixas de papelão disponibiliza produtos para: indústria alimentícia, bebidas, agroindústria, 
                   metalúrgica, fruticultura, automobilística, informática, entre várias outras.
                 </p>
                 <p>
-                  O distribuidor de embalagens de papelão utiliza matéria-prima de alta qualidade para a fabricação dos produtos. 
-                  Como distribuidor de embalagens de papelão, garantimos muita eficiência nos processos de impressão, acabamento e prazo de entrega.
+                  A fábrica de caixas de papelão utiliza matéria-prima de alta qualidade para a fabricação dos produtos. 
+                  Como fábrica de caixas de papelão, garantimos muita eficiência nos processos de impressão, acabamento e prazo de entrega.
                 </p>
               </div>
             </div>

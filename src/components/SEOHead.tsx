@@ -9,9 +9,9 @@ interface SEOHeadProps {
 }
 
 const SEOHead = ({ 
-  title = "Splendida - Distribuidor de Embalagens de Papelão | Caixas de Papelão Ondulado",
-  description = "Distribuidor de embalagens de papelão especializado em caixas de papelão ondulado, embalagens para transporte, alimentos e logística. Splendida embalagens de papelão com qualidade e preço competitivo.",
-  keywords = "distribuidor de embalagens de papelão, caixas de papelão, embalagens de papelão ondulado, embalagens para transporte, embalagens para alimentos, splendida embalagens",
+  title = "Splendida - Fábrica de caixas de papelão | Caixas de Papelão Ondulado",
+  description = "Fábrica de caixas de papelão especializada em caixas de papelão ondulado, embalagens para transporte, alimentos e logística. Splendida embalagens de papelão com qualidade e preço competitivo.",
+  keywords = "fábrica de caixas de papelão, caixas de papelão, embalagens de papelão ondulado, embalagens para transporte, embalagens para alimentos, splendida embalagens",
   canonical,
   ogImage = "https://splendidaembalagens.com.br/og-image.jpg"
 }: SEOHeadProps) => {

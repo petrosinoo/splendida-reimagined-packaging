@@ -57,7 +57,7 @@ const Personalizadas = () => {
               Embalagens de Papelão Impressas e Estampadas: <span className="text-secondary">Distribuidor Especializado</span>
             </h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              A Splendida, distribuidor de embalagens de papelão, oferece soluções inteligentes em embalagens de papelão estampadas e embalagens de papelão impressas. 
+              A Splendida, fábrica de caixas de papelão, oferece soluções inteligentes em embalagens de papelão estampadas e embalagens de papelão impressas. 
               Produzimos caixas de papelão personalizadas para empresas com impressões em diferentes cores.
             </p>
           </div>
