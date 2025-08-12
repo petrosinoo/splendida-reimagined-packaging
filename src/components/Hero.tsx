@@ -15,12 +15,12 @@ const Hero = () => {
       <div className="container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-            Soluções Completas em Embalagens de Papelão para Sua Indústria
+            Soluções completas em embalagens de papelão para sua indústria
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed">
-            Qualidade, Agilidade e Sustentabilidade para Otimizar Sua
-            Logística e Proteger Seus Produtos
+            Qualidade, agilidade e sustentabilidade para otimizar sua
+            logística e proteger seus produtos
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
