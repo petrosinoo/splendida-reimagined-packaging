@@ -102,7 +102,7 @@ const Header = () => {
             {/* Logo */}
             <Link to="/" className="flex items-center">
               <img 
-                src="/logo-splendida-novo.png" 
+                src="/lovable-uploads/97c3ebb6-b36f-4a33-b760-925ffc68094f.png" 
                 alt="Splendida Embalagens de Papelão"
                 className="h-20 md:h-24 w-auto object-contain"
               />
