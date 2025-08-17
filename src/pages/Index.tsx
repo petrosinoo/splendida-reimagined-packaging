@@ -172,6 +172,44 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Video Section */}
+      <section className="py-16 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-foreground">
+                Conheça nossa produção de perto
+              </h2>
+              <div className="space-y-4 text-gray-text">
+                <p className="text-lg">
+                  Veja como funciona nossa fábrica de caixas de papelão e o cuidado que temos em cada etapa do processo produtivo. Nossa equipe especializada trabalha com equipamentos de alta tecnologia para garantir a qualidade superior de nossas embalagens.
+                </p>
+                <p className="text-lg">
+                  Do desenvolvimento à entrega, cada caixa de papelão é produzida seguindo rigorosos padrões de qualidade, sempre pensando nas necessidades específicas de cada cliente.
+                </p>
+              </div>
+              <div className="mt-8">
+                <Button asChild size="lg" className="bg-secondary hover:bg-secondary/90">
+                  <Link to="/quem-somos">Saiba Mais Sobre Nós</Link>
+                </Button>
+              </div>
+            </div>
+            <div className="relative">
+              <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-card">
+                <iframe
+                  src="https://www.youtube.com/embed/ujr04-jSRmM?rel=0&modestbranding=1&controls=1"
+                  title="Splendida - Nossa Produção de Caixas de Papelão"
+                  className="w-full h-full"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Differentials Section */}
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
