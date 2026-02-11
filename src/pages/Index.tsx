@@ -228,14 +228,14 @@ const Index = () => {
             </div>
             <div className="order-1 lg:order-2">
               <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-foreground">
-                Uma aventura entre caixas de papelão
+                Qualidade que protege seus produtos
               </h2>
               <div className="space-y-4 text-gray-text">
                 <p className="text-lg">
-                  Nossas caixas de papelão ganharam vida! Criamos um vídeo divertido com inteligência artificial onde nossos próprios produtos vivem uma aventura durante as entregas, mostrando na prática a resistência e a qualidade do nosso papelão.
+                  Assista ao vídeo e veja de forma divertida como nossas caixas de papelão garantem a segurança dos seus produtos durante todo o processo de entrega.
                 </p>
                 <p className="text-lg">
-                  De forma criativa e descontraída, o vídeo reforça o que mais valorizamos: a segurança dos seus produtos e a qualidade superior das nossas embalagens em cada etapa do transporte.
+                  A resistência e a qualidade superior do nosso papelão fazem toda a diferença para que seus produtos cheguem sempre intactos ao destino final.
                 </p>
               </div>
               <div className="mt-8">
