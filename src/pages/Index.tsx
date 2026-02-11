@@ -228,14 +228,14 @@ const Index = () => {
             </div>
             <div className="order-1 lg:order-2">
               <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-foreground">
-                Nossa história contada de um jeito diferente
+                Uma aventura entre caixas de papelão
               </h2>
               <div className="space-y-4 text-gray-text">
                 <p className="text-lg">
-                  Nossas caixas de papelão ganharam vida! Criamos um vídeo especial com inteligência artificial onde nossos próprios produtos contam a trajetória da Splendida.
+                  Nossas caixas de papelão ganharam vida! Criamos um vídeo divertido com inteligência artificial onde nossos próprios produtos vivem uma aventura durante as entregas, mostrando na prática a resistência e a qualidade do nosso papelão.
                 </p>
                 <p className="text-lg">
-                  De forma divertida e criativa, descubra como nos tornamos referência na fabricação de embalagens de papelão, sempre com foco em qualidade, inovação e compromisso com nossos clientes.
+                  De forma criativa e descontraída, o vídeo reforça o que mais valorizamos: a segurança dos seus produtos e a qualidade superior das nossas embalagens em cada etapa do transporte.
                 </p>
               </div>
               <div className="mt-8">
