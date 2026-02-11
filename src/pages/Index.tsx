@@ -210,6 +210,47 @@ const Index = () => {
         </div>
       </section>
 
+      {/* AI Video Section */}
+      <section className="py-16 bg-light-blue">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="relative order-2 lg:order-1">
+              <div className="relative w-full max-w-[360px] mx-auto aspect-[9/16] rounded-2xl overflow-hidden shadow-card">
+                <iframe
+                  src="https://www.youtube.com/embed/hEznbB-UW48?rel=0&modestbranding=1&controls=1"
+                  title="Splendida - A História da Empresa contada por Caixas de Papelão"
+                  className="w-full h-full"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+            <div className="order-1 lg:order-2">
+              <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-foreground">
+                Nossa história contada de um jeito diferente
+              </h2>
+              <div className="space-y-4 text-gray-text">
+                <p className="text-lg">
+                  Nossas caixas de papelão ganharam vida! Criamos um vídeo especial com inteligência artificial onde nossos próprios produtos contam a trajetória da Splendida.
+                </p>
+                <p className="text-lg">
+                  De forma divertida e criativa, descubra como nos tornamos referência na fabricação de embalagens de papelão, sempre com foco em qualidade, inovação e compromisso com nossos clientes.
+                </p>
+              </div>
+              <div className="mt-8">
+                <Button asChild size="lg" variant="outline" className="bg-[#0d4172] text-white border-[#0d4172] hover:bg-white hover:text-[#0d4172] hover:border-[#0d4172]">
+                  <Link to="/quem-somos" className="flex items-center space-x-2">
+                    <span>Conheça Nossa História</span>
+                    <ArrowRight className="h-5 w-5" />
+                  </Link>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Differentials Section */}
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
