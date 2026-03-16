@@ -193,6 +193,11 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-400">
           <p>&copy; 2025 Splendida Embalagens. Todos os direitos reservados.</p>
+          <p className="mt-1">
+            <Link to="/politica-de-privacidade" className="text-gray-400 hover:text-secondary transition-colors">
+              Política de Privacidade
+            </Link>
+          </p>
           <p className="mt-2">Desenvolvido por <a href="https://www.dynamodigital.com.br" target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-yellow-400 transition-colors">Dynamo Digital</a></p>
         </div>
       </div>
