@@ -31,6 +31,7 @@ import MatoGrosso from "./pages/atuacao/MatoGrosso";
 import Para from "./pages/atuacao/Para";
 import Ceara from "./pages/atuacao/Ceara";
 import EspiritoSanto from "./pages/atuacao/EspiritoSanto";
+import PoliticaPrivacidade from "./pages/PoliticaPrivacidade";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
