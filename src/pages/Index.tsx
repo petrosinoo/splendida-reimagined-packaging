@@ -217,7 +217,7 @@ const Index = () => {
             <div className="relative order-2 lg:order-1">
               <div className="relative w-full max-w-[360px] mx-auto aspect-[9/16] rounded-2xl overflow-hidden shadow-card">
                 <iframe
-                  src="https://www.youtube.com/embed/hEznbB-UW48?rel=0&modestbranding=1&controls=1"
+                  src="https://www.youtube.com/embed/5qmOk6XoI-M?rel=0&modestbranding=1&controls=1"
                   title="Splendida - A História da Empresa contada por Caixas de Papelão"
                   className="w-full h-full"
                   frameBorder="0"
