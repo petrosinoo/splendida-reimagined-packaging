@@ -31,6 +31,7 @@ import MatoGrosso from "./pages/atuacao/MatoGrosso";
 import Para from "./pages/atuacao/Para";
 import Ceara from "./pages/atuacao/Ceara";
 import EspiritoSanto from "./pages/atuacao/EspiritoSanto";
+import PoliticaPrivacidade from "./pages/PoliticaPrivacidade";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -70,6 +71,7 @@ const App = () => (
           <Route path="/atuacao/espirito-santo" element={<EspiritoSanto />} />
           <Route path="/contato" element={<Contato />} />
           <Route path="/orcamento" element={<Orcamento />} />
+          <Route path="/politica-de-privacidade" element={<PoliticaPrivacidade />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
